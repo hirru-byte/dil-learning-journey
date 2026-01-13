@@ -1,0 +1,220 @@
+{
+  "common": {
+    "welcome": "Chào mừng đến với Next.js",
+    "description": "Bắt đầu bằng cách chỉnh sửa trang",
+    "learnMore": "Tìm hiểu thêm",
+    "documentation": "Tài liệu",
+    "deploy": "Triển khai ngay",
+    "language": "Ngôn ngữ"
+  },
+  "home": {
+    "title": "Chào mừng bạn đến với trang web của chúng tôi!",
+    "subtitle": "Đây là ứng dụng Next.js với hỗ trợ đa ngôn ngữ.",
+    "getStarted": "Bắt đầu bằng cách chỉnh sửa",
+    "pageFile": "app/page.tsx"
+  },
+  "nvidia": {
+    "title": "Lộ trình Học tập và Chứng nhận NVIDIA",
+    "date": "Tháng 1 năm 2026",
+    "viewPage": "Xem Trang Đào tạo NVIDIA"
+  },
+  "quickLinks": {
+    "title": "Liên kết Nhanh",
+    "forDevelopers": "Dành cho Nhà Phát triển",
+    "forInfrastructureProfessionals": "Dành cho Chuyên gia Hạ tầng",
+    "learningPathsToCertification": "Lộ trình Học tập Đến Chứng nhận",
+    "learningPathsByTopic": "Lộ trình Học tập Theo Chủ đề",
+    "developerCertifications": {
+      "associateGenerativeAILLM": "Associate Generative AI LLM",
+      "associateGenerativeAIMultimodal": "Associate Generative AI Multimodal",
+      "professionalGenerativeAILLM": "Professional Generative AI LLM",
+      "professionalAgenticAI": "Professional Agentic AI",
+      "professionalAcceleratedDataScience": "Professional Accelerated Data Science",
+      "professionalOpenUSDDevelopment": "Professional OpenUSD Development"
+    },
+    "developerTopics": {
+      "acceleratedComputing": "Tính toán Tăng tốc",
+      "computerVisionAndVideoAnalytics": "Thị giác Máy tính và Phân tích Video",
+      "dataScience": "Khoa học Dữ liệu",
+      "deepLearning": "Học sâu",
+      "generativeAIAndLLMs": "AI Tạo sinh và Mô hình Ngôn ngữ Lớn (LLMs)",
+      "industrialDigitalTwinTraining": "Đào tạo Song sinh Kỹ thuật số Công nghiệp",
+      "industryRelatedTraining": "Đào tạo Liên quan Đến Ngành",
+      "openUSD": "OpenUSD",
+      "robotics": "Robot học",
+      "simulationModelingAndDesign": "Mô phỏng, Mô hình hóa và Thiết kế"
+    },
+    "infrastructureCertifications": {
+      "associateAIInfrastructureAndOperations": "Associate AI Infrastructure and Operations",
+      "professionalAIInfrastructure": "Professional AI Infrastructure",
+      "professionalAIOperations": "Professional AI Operations",
+      "professionalAINetworking": "Professional AI Networking"
+    },
+    "infrastructureTopics": {
+      "acceleratedComputing": "Tính toán Tăng tốc",
+      "dataCenterAndCloud": "Trung tâm Dữ liệu và Điện toán Đám mây",
+      "dataCenterOverview": "Tổng quan Trung tâm Dữ liệu",
+      "infrastructureForGenerativeAIAndLLMs": "Hạ tầng cho AI Tạo sinh và LLMs",
+      "networking": "Mạng"
+    },
+    "footer": {
+      "customizedTraining": "Để phát triển kế hoạch đào tạo tùy chỉnh cho tổ chức của bạn, hãy kết nối với một trong các",
+      "trainingAdvisors": "cố vấn đào tạo",
+      "viewCatalog": "Xem danh mục đầy đủ các khóa học",
+      "here": "tại đây",
+      "contactUs": "Để đặt câu hỏi, liên hệ với chúng tôi",
+      "here2": "tại đây"
+    }
+  },
+  "certificationFramework": {
+    "title": "Khung Chứng nhận NVIDIA",
+    "professional": "Chuyên nghiệp",
+    "associate": "Liên kết",
+    "aiInfrastructure": "Hạ tầng AI",
+    "aiApplicationsAndWorkloads": "Ứng dụng và Khối lượng Công việc AI",
+    "certifications": {
+      "professionalAIInfrastructure": "Chứng nhận Chuyên nghiệp Hạ tầng AI",
+      "professionalAIOperations": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "professionalAINetworking": "Chứng nhận Chuyên nghiệp Mạng AI",
+      "professionalGenAILLMs": "Chứng nhận Chuyên nghiệp Gen AI LLMs",
+      "professionalAgenticAI": "Chứng nhận Chuyên nghiệp AI Tác nhân",
+      "professionalAcceleratedDataScience": "Chứng nhận Chuyên nghiệp Khoa học Dữ liệu Tăng tốc",
+      "professionalOpenUSDDevelopment": "Chứng nhận Chuyên nghiệp Phát triển OpenUSD",
+      "associateAIInfrastructureAndOperations": "Chứng nhận Liên kết Hạ tầng và Vận hành AI",
+      "associateGenAILLMs": "Chứng nhận Liên kết Gen AI LLMs",
+      "associateGenAIMultimodal": "Chứng nhận Liên kết Gen AI Đa phương thức",
+      "associateAcceleratedDataScience": "Chứng nhận Liên kết Khoa học Dữ liệu Tăng tốc",
+      "associateOpenUSDDevelopment": "Chứng nhận Liên kết Phát triển OpenUSD"
+    },
+    "footnotes": {
+      "infrastructure": "Dựa trên Giải pháp Phần cứng & Phần mềm NVIDIA, Được thiết kế cho Vai trò Hạ tầng và Vận hành.",
+      "applications": "Dựa trên Yêu cầu Ứng dụng cho Tính toán Tăng tốc, AI và Khối lượng Công việc Liên quan Được thiết kế cho Vai trò Nhà phát triển."
+    },
+    "releaseDates": {
+      "1H2026": "H1 2026",
+      "2H2025": "H2 2025"
+    }
+  },
+  "certificationFramework2": {
+    "header": "Đào tạo và Chứng nhận cho Nhà Phát triển",
+    "title": "Khung Chứng nhận NVIDIA",
+    "professional": "Chuyên nghiệp",
+    "associate": "Liên kết",
+    "professionalAIInfrastructure": "Hạ tầng AI Chuyên nghiệp",
+    "professionalAIApplications": "Ứng dụng AI Chuyên nghiệp",
+    "associateAIInfrastructure": "Hạ tầng AI Liên kết",
+    "associateAIApplications": "Ứng dụng AI Liên kết",
+    "certifications": {
+      "professionalAIInfrastructure": "Hạ tầng AI Chuyên nghiệp",
+      "professionalDataScientist": "Nhà Khoa học Dữ liệu Chuyên nghiệp",
+      "professionalMLOps": "MLOps Chuyên nghiệp",
+      "professionalGenerativeAILLM": "Generative AI LLM Chuyên nghiệp",
+      "professionalGenerativeAIMultimodal": "Generative AI Đa phương thức Chuyên nghiệp",
+      "professionalComputerVision": "Thị giác Máy tính Chuyên nghiệp",
+      "associateAIInfrastructure": "Hạ tầng AI Liên kết",
+      "associateDataScientist": "Nhà Khoa học Dữ liệu Liên kết",
+      "associateMLOps": "MLOps Liên kết",
+      "associateGenerativeAILLM": "Generative AI LLM Liên kết",
+      "associateGenerativeAIMultimodal": "Generative AI Đa phương thức Liên kết",
+      "associateComputerVision": "Thị giác Máy tính Liên kết"
+    },
+    "footer": "Tháng 1 năm 2026",
+    "releaseDates": {
+      "1H2026": "H1 2026",
+      "2H2025": "H2 2025"
+    }
+  },
+  "acceleratedComputing": {
+    "title": "Đào tạo Tính toán Tăng tốc",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Tính toán Tăng tốc",
+    "categories": {
+      "foundational": "Nền tảng",
+      "gpuProgramming": "Lập trình GPU với Thư viện Tiêu chuẩn C++",
+      "profiling": "Phân tích Hiệu năng",
+      "networking": "Mạng"
+    },
+    "courses": {
+      "evenEasierIntroCUDA": "Giới thiệu CUDA Dễ dàng Hơn",
+      "fundamentalsModernCUDA": "Cơ bản về Tính toán Tăng tốc với CUDA C/C++ Hiện đại",
+      "fundamentalsCUDAPython": "Cơ bản về Tính toán Tăng tốc với CUDA Python",
+      "gpuAccelerationCpp": "Tăng tốc GPU với Thư viện Tiêu chuẩn C++",
+      "scalingGpuAccelerated": "Mở rộng Ứng dụng Tăng tốc GPU với Thư viện Tiêu chuẩn C++",
+      "optimizingCUDAML": "Tối ưu hóa Mã CUDA ML với Công cụ Phân tích NVIDIA Nsight",
+      "nsightAnalysisSystem": "Hệ thống Phân tích Nsight: Xây dựng Script Phân tích Python Tùy chỉnh",
+      "fundamentalsAcceleratedNetworking": "Cơ bản về Mạng Tăng tốc với NVIDIA DOCA"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
+  },
+  "agenticAI": {
+    "title": "Chứng nhận AI Tác nhân",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Gen AI",
+    "certificationBadge": "NVIDIA Certified Professional Agentic AI",
+    "sections": {
+      "fundamentals": "Nền tảng",
+      "generativeAIAndMultimodal": "AI Tạo sinh và Đa phương thức",
+      "certification": "Chứng nhận"
+    },
+    "courses": {
+      "buildingRAGAgents": "Xây dựng Tác nhân RAG với LLMs",
+      "evaluatingRAG": "Đánh giá Hệ thống RAG và Tìm kiếm Ngữ nghĩa",
+      "buildingAgenticAI": "Xây dựng Ứng dụng AI Tác nhân với LLMs",
+      "addingNewKnowledge": "Thêm Kiến thức Mới vào LLMs",
+      "introductionToDeployingRAG": "Giới thiệu Triển khai Pipeline RAG cho Sản xuất ở Quy mô",
+      "examAgenticAI": "NVIDIA Certified Professional Agentic AI"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "simulationModelingDesign": {
+    "title": "Đào tạo Mô phỏng, Mô hình hóa và Thiết kế",
+    "subtitle": "Dành cho nhà phát triển và quản trị viên",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Mô phỏng, Mô hình hóa và Thiết kế",
+    "categories": {
+      "omniverseKitBased": "Phát triển Dựa trên Omniverse Kit",
+      "simulationSyntheticData": "Mô phỏng và Dữ liệu Tổng hợp",
+      "openUSD": "OpenUSD"
+    },
+    "courses": {
+      "developingOmniverseKitApp": "Phát triển Ứng dụng Dựa trên Omniverse Kit",
+      "buildOpenUSDIndustrialTwins": "Cách Xây dựng Ứng dụng OpenUSD cho Song sinh Kỹ thuật số Công nghiệp",
+      "fundamentalsWorkingOpenUSD": "Cơ bản về Làm việc với OpenUSD",
+      "building3DProductConfigurator": "Xây dựng Bộ Cấu hình Sản phẩm 3D với OpenUSD và Omniverse",
+      "developingAIBackgroundGenerator": "Phát triển Trình Tạo Nền AI với NIM",
+      "creatingCustomizingOmniverseExtension": "Tạo và Tùy chỉnh Tiện ích mở rộng Omniverse",
+      "buildNativeOpenUSDXRApp": "Cách Xây dựng Ứng dụng OpenUSD XR Gốc",
+      "developCustomizePublishOmniverse": "Phát triển, Tùy chỉnh và Xuất bản trong NVIDIA Omniverse với Tiện ích mở rộng",
+      "syntheticDataGenerationComputerVision": "Tạo Dữ liệu Tổng hợp cho Đào tạo Mô hình Thị giác Máy tính",
+      "buildingDigitalAvatarPipelines": "Xây dựng Pipeline Avatar Kỹ thuật số với Omniverse Audio2Face và Riva (Tiếng Trung)",
+      "syntheticDataGenerationIsaacSim": "Tạo Dữ liệu Tổng hợp cho Đào tạo Mô hình Nhận thức trong Isaac Sim",
+      "learnOpenUSDStagesPrimsAttributes": "Học OpenUSD: Tìm hiểu về Stages, Prims và Attributes",
+      "learnOpenUSDWorkingPrimsSchemas": "Học OpenUSD: Làm việc với Prims và Schemas Mặc định",
+      "learnOpenUSDUsingAttributes": "Học OpenUSD: Sử dụng Attributes",
+      "learnOpenUSDTraversingStages": "Học OpenUSD: Duyệt qua Stages",
+      "learnOpenUSDUnderstandingModelKinds": "Học OpenUSD: Hiểu về Model Kinds",
+      "learnOpenUSDSettingUpAnimations": "Học OpenUSD: Thiết lập Hoạt hình Cơ bản",
+      "learnOpenUSDIntroductionStrengthOrdering": "Học OpenUSD: Giới thiệu về Strength Ordering",
+      "learnOpenUSDCreatingCompositionArcs": "Học OpenUSD: Tạo Composition Arcs",
+      "learnOpenUSDAssetStructurePrinciples": "Học OpenUSD: Nguyên tắc Cấu trúc Tài sản và Tổng hợp Nội dung",
+      "learnOpenUSDDevelopingDataExchange": "Học OpenUSD: Phát triển Pipeline Trao đổi Dữ liệu"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
+  }
+}

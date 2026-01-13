@@ -1,0 +1,220 @@
+{
+  "common": {
+    "welcome": "Welcome to Next.js",
+    "description": "Get started by editing the page",
+    "learnMore": "Learn More",
+    "documentation": "Documentation",
+    "deploy": "Deploy Now",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Welcome to our website!",
+    "subtitle": "This is a Next.js application with internationalization support.",
+    "getStarted": "Get started by editing",
+    "pageFile": "app/page.tsx"
+  },
+  "nvidia": {
+    "title": "NVIDIA Training and Certification Learning Paths",
+    "date": "January 2026",
+    "viewPage": "View NVIDIA Training Page"
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "forDevelopers": "For Developers",
+    "forInfrastructureProfessionals": "For Infrastructure Professionals",
+    "learningPathsToCertification": "Learning Paths to Certification",
+    "learningPathsByTopic": "Learning Paths By Topic",
+    "developerCertifications": {
+      "associateGenerativeAILLM": "Associate Generative AI LLM",
+      "associateGenerativeAIMultimodal": "Associate Generative AI Multimodal",
+      "professionalGenerativeAILLM": "Professional Generative AI LLM",
+      "professionalAgenticAI": "Professional Agentic AI",
+      "professionalAcceleratedDataScience": "Professional Accelerated Data Science",
+      "professionalOpenUSDDevelopment": "Professional OpenUSD Development"
+    },
+    "developerTopics": {
+      "acceleratedComputing": "Accelerated Computing",
+      "computerVisionAndVideoAnalytics": "Computer Vision and Video Analytics",
+      "dataScience": "Data Science",
+      "deepLearning": "Deep Learning",
+      "generativeAIAndLLMs": "Generative AI and Large Language Models (LLMs)",
+      "industrialDigitalTwinTraining": "Industrial Digital Twin Training",
+      "industryRelatedTraining": "Industry-Related Training",
+      "openUSD": "OpenUSD",
+      "robotics": "Robotics",
+      "simulationModelingAndDesign": "Simulation, Modeling, and Design"
+    },
+    "infrastructureCertifications": {
+      "associateAIInfrastructureAndOperations": "Associate AI Infrastructure and Operations",
+      "professionalAIInfrastructure": "Professional AI Infrastructure",
+      "professionalAIOperations": "Professional AI Operations",
+      "professionalAINetworking": "Professional AI Networking"
+    },
+    "infrastructureTopics": {
+      "acceleratedComputing": "Accelerated Computing",
+      "dataCenterAndCloud": "Data Center and Cloud",
+      "dataCenterOverview": "Data Center Overview",
+      "infrastructureForGenerativeAIAndLLMs": "Infrastructure for Generative AI and LLMs",
+      "networking": "Networking"
+    },
+    "footer": {
+      "customizedTraining": "To develop a customized training plan for your organization, connect with one of our",
+      "trainingAdvisors": "training advisors",
+      "viewCatalog": "View the full catalog of courses",
+      "here": "here",
+      "contactUs": "For questions, contact us",
+      "here2": "here"
+    }
+  },
+  "certificationFramework": {
+    "title": "NVIDIA Certification Framework",
+    "professional": "Professional",
+    "associate": "Associate",
+    "aiInfrastructure": "AI Infrastructure",
+    "aiApplicationsAndWorkloads": "AI Applications and Workloads",
+    "certifications": {
+      "professionalAIInfrastructure": "Certified Professional AI Infrastructure",
+      "professionalAIOperations": "Certified Professional AI Operations",
+      "professionalAINetworking": "Certified Professional AI Networking",
+      "professionalGenAILLMs": "Certified Professional Gen AI LLMs",
+      "professionalAgenticAI": "Certified Professional Agentic AI",
+      "professionalAcceleratedDataScience": "Certified Professional Accelerated Data Science",
+      "professionalOpenUSDDevelopment": "Certified Professional OpenUSD Development",
+      "associateAIInfrastructureAndOperations": "Certified Associate AI Infrastructure and Operations",
+      "associateGenAILLMs": "Certified Associate Gen AI LLMs",
+      "associateGenAIMultimodal": "Certified Associate Gen AI Multimodal",
+      "associateAcceleratedDataScience": "Certified Associate Accelerated Data Science",
+      "associateOpenUSDDevelopment": "Certified Associate OpenUSD Development"
+    },
+    "footnotes": {
+      "infrastructure": "Based on NVIDIA HW & SW Solutions, Designed for Infrastructure and Operations Roles.",
+      "applications": "Based on Application Requirements for Accelerated Computing, AI, and Related Workloads Designed for Developer Roles."
+    },
+    "releaseDates": {
+      "1H2026": "1H 2026",
+      "2H2025": "2H 2025"
+    }
+  },
+  "certificationFramework2": {
+    "header": "Training and Certification for Developers",
+    "title": "NVIDIA Certification Framework",
+    "professional": "Professional",
+    "associate": "Associate",
+    "professionalAIInfrastructure": "Professional AI Infrastructure",
+    "professionalAIApplications": "Professional AI Applications",
+    "associateAIInfrastructure": "Associate AI Infrastructure",
+    "associateAIApplications": "Associate AI Applications",
+    "certifications": {
+      "professionalAIInfrastructure": "Professional AI Infrastructure",
+      "professionalDataScientist": "Professional Data Scientist",
+      "professionalMLOps": "Professional MLOps",
+      "professionalGenerativeAILLM": "Professional Generative AI LLM",
+      "professionalGenerativeAIMultimodal": "Professional Generative AI Multimodal",
+      "professionalComputerVision": "Professional Computer Vision",
+      "associateAIInfrastructure": "Associate AI Infrastructure",
+      "associateDataScientist": "Associate Data Scientist",
+      "associateMLOps": "Associate MLOps",
+      "associateGenerativeAILLM": "Associate Generative AI LLM",
+      "associateGenerativeAIMultimodal": "Associate Generative AI Multimodal",
+      "associateComputerVision": "Associate Computer Vision"
+    },
+    "footer": "January 2026",
+    "releaseDates": {
+      "1H2026": "1H 2026",
+      "2H2025": "2H 2025"
+    }
+  },
+  "acceleratedComputing": {
+    "title": "Accelerated Computing Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Accelerated Computing Learning Path Webpage",
+    "categories": {
+      "foundational": "Foundational",
+      "gpuProgramming": "GPU Programming with the C++ Standard Library",
+      "profiling": "Profiling",
+      "networking": "Networking"
+    },
+    "courses": {
+      "evenEasierIntroCUDA": "An Even Easier Introduction to CUDA",
+      "fundamentalsModernCUDA": "Fundamentals of Accelerated Computing With Modern CUDA C/C++",
+      "fundamentalsCUDAPython": "Fundamentals of Accelerated Computing With CUDA Python",
+      "gpuAccelerationCpp": "GPU Acceleration With the C++ Standard Library",
+      "scalingGpuAccelerated": "Scaling GPU-Accelerated Applications With the C++ Standard Library",
+      "optimizingCUDAML": "Optimizing CUDA ML Codes With NVIDIA Nsight's Profiling Tools",
+      "nsightAnalysisSystem": "Nsight Analysis System: Build Custom Python Analysis Scripts",
+      "fundamentalsAcceleratedNetworking": "Fundamentals of Accelerated Networking with NVIDIA DOCA"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  },
+  "agenticAI": {
+    "title": "Agentic AI Certification",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Gen AI Learning Path Webpage",
+    "certificationBadge": "NVIDIA Certified Professional Agentic AI",
+    "sections": {
+      "fundamentals": "Fundamentals",
+      "generativeAIAndMultimodal": "Generative AI and Multimodal",
+      "certification": "Certification"
+    },
+    "courses": {
+      "buildingRAGAgents": "Building RAG Agents with LLMs",
+      "evaluatingRAG": "Evaluating RAG and Semantic Search Systems",
+      "buildingAgenticAI": "Building Agentic AI Applications with LLMs",
+      "addingNewKnowledge": "Adding New Knowledge to LLMs",
+      "introductionToDeployingRAG": "Introduction to Deploying RAG Pipelines for Production at Scale",
+      "examAgenticAI": "NVIDIA Certified Professional Agentic AI"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "simulationModelingDesign": {
+    "title": "Simulation, Modeling, and Design Training",
+    "subtitle": "For developers and administrators",
+    "linkToLearningPath": "Link to Simulation, Modeling, and Design Learning Path Webpage",
+    "categories": {
+      "omniverseKitBased": "Omniverse Kit-Based Development",
+      "simulationSyntheticData": "Simulation and Synthetic Data",
+      "openUSD": "OpenUSD"
+    },
+    "courses": {
+      "developingOmniverseKitApp": "Developing an Omniverse Kit-Based Application",
+      "buildOpenUSDIndustrialTwins": "How to Build OpenUSD Applications for Industrial Digital Twins",
+      "fundamentalsWorkingOpenUSD": "Fundamentals of Working With OpenUSD",
+      "building3DProductConfigurator": "Building a 3D Product Configurator with OpenUSD and Omniverse",
+      "developingAIBackgroundGenerator": "Developing an AI Background Generator With NIM",
+      "creatingCustomizingOmniverseExtension": "Creating and Customizing an Omniverse Extension",
+      "buildNativeOpenUSDXRApp": "How to Build a Native OpenUSD XR Application",
+      "developCustomizePublishOmniverse": "Develop, Customize, and Publish in NVIDIA Omniverse With Extensions",
+      "syntheticDataGenerationComputerVision": "Synthetic Data Generation for Training Computer Vision Models",
+      "buildingDigitalAvatarPipelines": "Building Digital Avatar Pipelines With Omniverse Audio2Face and Riva (Chinese)",
+      "syntheticDataGenerationIsaacSim": "Synthetic Data Generation for Perception Model Training in Isaac Sim",
+      "learnOpenUSDStagesPrimsAttributes": "Learn OpenUSD: Learning About Stages, Prims, and Attributes",
+      "learnOpenUSDWorkingPrimsSchemas": "Learn OpenUSD: Working With Prims and Default Schemas",
+      "learnOpenUSDUsingAttributes": "Learn OpenUSD: Using Attributes",
+      "learnOpenUSDTraversingStages": "Learn OpenUSD: Traversing Stages",
+      "learnOpenUSDUnderstandingModelKinds": "Learn OpenUSD: Understanding Model Kinds",
+      "learnOpenUSDSettingUpAnimations": "Learn OpenUSD: Setting Up Basic Animations",
+      "learnOpenUSDIntroductionStrengthOrdering": "Learn OpenUSD: An Introduction to Strength Ordering",
+      "learnOpenUSDCreatingCompositionArcs": "Learn OpenUSD: Creating Composition Arcs",
+      "learnOpenUSDAssetStructurePrinciples": "Learn OpenUSD: Asset Structure Principles and Content Aggregation",
+      "learnOpenUSDDevelopingDataExchange": "Learn OpenUSD: Developing Data Exchange Pipelines"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  }
+}

@@ -178,6 +178,487 @@
       "blueBar": "Kỳ thi Chứng nhận NVIDIA"
     }
   },
+  "genAILLMCertifications": {
+    "title": "Chứng nhận Gen AI LLM Dành cho Nhà Phát triển",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Gen AI",
+    "certificationBadge": "NVIDIA Certified Associate Gen AI LLMs",
+    "sections": {
+      "fundamentals": "Nền tảng",
+      "generativeAIAndLLMs": "AI Tạo sinh và LLMs",
+      "professional": "Chuyên nghiệp"
+    },
+    "courses": {
+      "whatIsTrustworthyAI": "AI Đáng tin cậy là gì?",
+      "fundamentalsOfDeepLearning": "Cơ bản về Học sâu",
+      "fundamentalsOfAcceleratedDataScience": "Cơ bản về Khoa học Dữ liệu Tăng tốc",
+      "buildingTransformerBasedNLP": "Xây dựng Ứng dụng Xử lý Ngôn ngữ Tự nhiên Dựa trên Transformer",
+      "buildingLLMApplicationsPromptEngineering": "Xây dựng Ứng dụng LLM với Kỹ thuật Nhắc",
+      "rapidApplicationDevelopmentLLMs": "Phát triển Ứng dụng Nhanh với Mô hình Ngôn ngữ Lớn",
+      "associateCertificationExam": "NVIDIA-Certified Associate Generative AI Large Language Models",
+      "buildingRAGAgentsLLMs": "Xây dựng Tác nhân RAG với LLMs",
+      "addingNewKnowledgeLLMs": "Thêm Kiến thức Mới vào LLMs",
+      "modelParallelismLargeNeuralNetworks": "Song song hóa Mô hình: Xây dựng và Triển khai Mạng Thần kinh Lớn",
+      "deployingRAGPipelinesProduction": "Triển khai Pipeline RAG cho Sản xuất ở Quy mô",
+      "optimizingCUDAMLNsight": "Tối ưu hóa Mã CUDA ML với Công cụ Phân tích NVIDIA Nsight",
+      "professionalCertificationExam": "NVIDIA-Certified Professional Generative AI Large Language Models"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "genAIMultimodalCertifications": {
+    "title": "Chứng nhận Gen AI Đa phương thức",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Gen AI",
+    "certificationBadge": "NVIDIA Certified Associate Gen AI Multimodal",
+    "sections": {
+      "fundamentals": "Nền tảng",
+      "generativeAIAndMultimodal": "AI Tạo sinh và Đa phương thức",
+      "certification": "Chứng nhận"
+    },
+    "courses": {
+      "fundamentalsOfDeepLearning": "Cơ bản về Học sâu",
+      "buildingTransformerBasedNLP": "Xây dựng Ứng dụng Xử lý Ngôn ngữ Tự nhiên Dựa trên Transformer",
+      "buildingConversationalAI": "Xây dựng Ứng dụng AI Hội thoại",
+      "generativeAIWithDiffusionModels": "AI Tạo sinh với Mô hình Khuếch tán",
+      "buildingAIAgentsMultimodalModels": "Xây dựng Tác nhân AI với Mô hình Đa phương thức",
+      "associateCertificationExam": "NVIDIA Certified Associate Generative AI Multimodal"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "generativeAILLMTraining": {
+    "title": "Đào tạo AI Tạo sinh và LLM",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Gen AI",
+    "sections": {
+      "foundational": "Nền tảng",
+      "buildApplicationsWithLLMs": "Xây dựng Ứng dụng với LLMs",
+      "retrievalAugmentedGeneration": "Tạo sinh Tăng cường Truy xuất",
+      "dataGeneration": "Tạo Dữ liệu",
+      "dataCurationModelCustomization": "Quản lý Dữ liệu, Tùy chỉnh Mô hình và Đào tạo Quy mô Lớn",
+      "inferenceAndDeployment": "Suy luận và Triển khai",
+      "agenticAI": "AI Tác nhân"
+    },
+    "courses": {
+      "generativeAIExplained": "Giải thích AI Tạo sinh",
+      "buildingBrain10Minutes": "Xây dựng Bộ não trong 10 Phút",
+      "fundamentalsOfDeepLearning": "Cơ bản về Học sâu",
+      "introductionTransformerBasedNLP": "Giới thiệu về Xử lý Ngôn ngữ Tự nhiên Dựa trên Transformer",
+      "buildingTransformerBasedNLPApplications": "Xây dựng Ứng dụng Xử lý Ngôn ngữ Tự nhiên Dựa trên Transformer",
+      "buildingConversationalAI": "Xây dựng Ứng dụng AI Hội thoại",
+      "buildingLLMApplicationsPromptEngineering": "Xây dựng Ứng dụng LLM với Kỹ thuật Nhắc",
+      "rapidApplicationDevelopmentLLMs": "Phát triển Ứng dụng Nhanh với Mô hình Ngôn ngữ Lớn",
+      "buildingAIAgentsMultimodalModels": "Xây dựng Tác nhân AI với Mô hình Đa phương thức",
+      "augmentLLMUsingRAG": "Tăng cường LLM của Bạn bằng Tạo sinh Tăng cường Truy xuất",
+      "buildingRAGAgentsLLMs": "Xây dựng Tác nhân RAG với LLMs",
+      "evaluatingRAGSemanticSearch": "Đánh giá Hệ thống RAG và Tìm kiếm Ngữ nghĩa",
+      "techniquesImprovingRAGEffectiveness": "Kỹ thuật Cải thiện Hiệu quả Hệ thống RAG",
+      "generativeAIWithDiffusionModels": "AI Tạo sinh với Mô hình Khuếch tán",
+      "gettingStartedNVIDIAToolsGenerativeAIDigitalHealth": "Bắt đầu với Công cụ NVIDIA cho AI Tạo sinh trong Y tế Kỹ thuật số",
+      "streamliningDrugDiscoveryBioNeMo": "Tối ưu hóa Khám phá Thuốc với NVIDIA BioNeMo NIM Microservices và Blueprints",
+      "syntheticTabularDataGenerationTransformers": "Tạo Dữ liệu Dạng Bảng Tổng hợp bằng Transformers",
+      "introductionMultiModalDataCuration": "Giới thiệu về Quản lý Dữ liệu Đa Phương thức",
+      "domainAdaptivePreTraining": "Đào tạo Trước Thích ứng Miền: Điều chỉnh LLMs cho Ứng dụng Chuyên biệt",
+      "evaluationLightCustomizationLLMs": "Đánh giá và Tùy chỉnh Nhẹ Mô hình Ngôn ngữ Lớn",
+      "addingNewKnowledgeLLMs": "Thêm Kiến thức Mới vào LLMs",
+      "modelParallelismLargeNeuralNetworks": "Song song hóa Mô hình: Xây dựng và Triển khai Mạng Thần kinh Lớn",
+      "introductionNVIDIANIMMicroservices": "Giới thiệu về NVIDIA NIM Microservices",
+      "sizingLLMInferenceSystems": "Định cỡ Hệ thống Suy luận LLM",
+      "introductionDeployingRAGPipelines": "Giới thiệu Triển khai Pipeline RAG cho Sản xuất ở Quy mô",
+      "deployingRAGPipelinesProduction": "Triển khai Pipeline RAG cho Sản xuất ở Quy mô",
+      "buildingAgenticAIApplicationsLLMs": "Xây dựng Ứng dụng AI Tác nhân với LLMs"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
+  },
+  "industrialDigitalTwinsTraining": {
+    "title": "Đào tạo Song sinh Kỹ thuật số Công nghiệp",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Song sinh Kỹ thuật số Công nghiệp",
+    "sections": {
+      "digitalTwinFoundations": "Nền tảng Song sinh Kỹ thuật số",
+      "gettingStartedOmniverseDevelopment": "Bắt đầu với Phát triển Omniverse",
+      "assemblingOpenUSDDataDigitalTwins": "Lắp ráp Dữ liệu OpenUSD cho Song sinh Kỹ thuật số"
+    },
+    "courses": {
+      "whatIsDigitalTwin": "Song sinh Kỹ thuật số là gì?",
+      "fundamentalsWorkingOpenUSD": "Cơ bản về Làm việc với OpenUSD",
+      "openUSDFoundationsLearningPath": "Lộ trình Học tập Nền tảng OpenUSD",
+      "introductionDevelopingNVIDIAOmniverse": "Giới thiệu về Phát triển với NVIDIA Omniverse",
+      "creatingOmniverseExtensionPython": "Tạo Tiện ích mở rộng Omniverse với Python",
+      "extendingOmniverseKitApplicationsDigitalTwins": "Mở rộng Ứng dụng Omniverse Kit để Xây dựng Song sinh Kỹ thuật số",
+      "customizingUIFrontEndDashboardsDigitalTwins": "Tùy chỉnh UI và Bảng điều khiển Front-End cho Song sinh Kỹ thuật số",
+      "buildingDeployingDigitalTwinApplicationsOmniverseKitAppStreaming": "Xây dựng và Triển khai Ứng dụng Song sinh Kỹ thuật số với Omniverse Kit App Streaming",
+      "assemblingFirstDigitalTwinOmniverseOpenUSD": "Lắp ráp Song sinh Kỹ thuật số Đầu tiên của Bạn với Omniverse và OpenUSD",
+      "preparing3DAssetsSimulationPhysicalAI": "Chuẩn bị Tài sản 3D cho Mô phỏng và AI Vật lý",
+      "learnOpenUSDCreatingCompositionArcs": "Học OpenUSD: Tạo Composition Arcs",
+      "learnOpenUSDAssetStructurePrinciples": "Học OpenUSD: Nguyên tắc Cấu trúc Tài sản và Tổng hợp Nội dung",
+      "learnOpenUSDDevelopingDataExchangePipelines": "Học OpenUSD: Phát triển Pipeline Trao đổi Dữ liệu",
+      "learnOpenUSDAssetModularityInstancing": "Học OpenUSD: Mô đun hóa Tài sản và Tạo bản sao",
+      "syntheticDataGenerationGenerativeAIReferenceWorkflow": "Tạo Dữ liệu Tổng hợp với Quy trình Tham chiếu AI Tạo sinh",
+      "roboticsFundamentalsLearningPath": "Lộ trình Học tập Nền tảng Robot học",
+      "introductionNVIDIACosmosPhysicalAI": "Giới thiệu về NVIDIA Cosmos cho AI Vật lý",
+      "buildingAIAgentsMultimodalModels": "Xây dựng Tác nhân AI với Mô hình Đa phương thức"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "greyBar": "Bài viết / Blog",
+      "greenBar": "Khóa học Tự học",
+      "purpleBar": "Lộ trình Học tập"
+    }
+  },
+  "industryRelatedTraining": {
+    "title": "Đào tạo Liên quan Đến Ngành",
+    "subtitle": "Dành cho nhà phát triển",
+    "disclaimer": "Nếu các khóa học được liệt kê dưới một chủ đề, không có thứ tự nào được ngụ ý",
+    "sections": {
+      "energyAndManufacturing": "Năng lượng và Sản xuất",
+      "healthcareAndLifeSciences": "Y tế và Khoa học Đời sống",
+      "financialServices": "Dịch vụ Tài chính"
+    },
+    "courses": {
+      "computerVisionIndustrialInspection": "Thị giác Máy tính cho Kiểm tra Công nghiệp",
+      "applicationsAIPredictiveMaintenance": "Ứng dụng AI cho Bảo trì Dự đoán",
+      "acceleratingCAENVIDIAAIPhysicsTechnology": "Tăng tốc Kỹ thuật Hỗ trợ Máy tính (CAE) với Công nghệ AI Vật lý NVIDIA",
+      "accelerateDataScienceLeverageFoundationModelsDigitalBiology": "Tăng tốc Khoa học Dữ liệu và Tận dụng Mô hình Nền tảng trong Sinh học Kỹ thuật số",
+      "streamliningDrugDiscoveryBioNeMo": "Tối ưu hóa Khám phá Thuốc với NVIDIA BioNeMo NIM Microservices và Blueprints",
+      "gettingStartedNVIDIAToolsGenerativeAIDigitalHealth": "Bắt đầu với Công cụ NVIDIA cho AI Tạo sinh trong Y tế Kỹ thuật số",
+      "medicalAIDevelopmentMONAI": "Phát triển AI Y tế với MONAI: Chú thích Tương tác Sử dụng Microservices NVIDIA NIM",
+      "introductionFederatedLearningNVIDIAFLARE": "Giới thiệu về Học máy Liên kết với NVIDIA FLARE",
+      "decentralizedAIScaleNVIDIAFlare": "AI Phi tập trung ở Quy mô với NVIDIA Flare",
+      "acceleratingPortfolioOptimization": "Tăng tốc Tối ưu hóa Danh mục Đầu tư",
+      "applicationsAIAnomalyDetection": "Ứng dụng AI cho Phát hiện Bất thường"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
+  },
+  "openUSDCertification": {
+    "title": "Chứng nhận OpenUSD",
+    "subtitle": "Dành cho nhà phát triển và quản trị viên",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập OpenUSD",
+    "certificationBadge": "NVIDIA Certified Professional OpenUSD Development",
+    "sections": {
+      "professionalCertification": "Chứng nhận Chuyên nghiệp",
+      "fundamentals": "Nền tảng",
+      "appliedConcepts": "Khái niệm Ứng dụng",
+      "certification": "Chứng nhận"
+    },
+    "courses": {
+      "learnOpenUSDStagesPrimsAttributes": "Học OpenUSD: Tìm hiểu về Stages, Prims và Attributes",
+      "learnOpenUSDWorkingPrimsSchemas": "Học OpenUSD: Làm việc với Prims và Schemas Mặc định",
+      "learnOpenUSDUsingAttributes": "Học OpenUSD: Sử dụng Attributes",
+      "learnOpenUSDTraversingStages": "Học OpenUSD: Duyệt qua Stages",
+      "learnOpenUSDUnderstandingModelKinds": "Học OpenUSD: Hiểu về Model Kinds",
+      "learnOpenUSDSettingUpAnimations": "Học OpenUSD: Thiết lập Hoạt hình Cơ bản",
+      "learnOpenUSDCreatingCompositionArcs": "Học OpenUSD: Tạo Composition Arcs",
+      "learnOpenUSDAssetStructurePrinciples": "Học OpenUSD: Nguyên tắc Cấu trúc Tài sản và Tổng hợp Nội dung",
+      "learnOpenUSDDevelopingDataExchangePipelines": "Học OpenUSD: Phát triển Pipeline Trao đổi Dữ liệu",
+      "professionalCertificationExam": "NVIDIA-Certified Professional OpenUSD Development"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học",
+      "blueBar": "Kỳ thi Chứng nhận"
+    }
+  },
+  "roboticsTraining": {
+    "title": "Đào tạo Robot học",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Robot học",
+    "sections": {
+      "roboticsFoundations": "Nền tảng Robot học",
+      "gettingStartedIsaacSim": "Bắt đầu với Isaac Sim",
+      "gettingStartedIsaacLab": "Bắt đầu với Isaac Lab",
+      "gettingStartedIsaacROS": "Bắt đầu với Isaac ROS"
+    },
+    "courses": {
+      "beginnersGuideAutonomousRobots": "Hướng dẫn Người mới bắt đầu về Robot Tự động",
+      "introductionNVIDIACosmosPhysicalAI": "Giới thiệu về NVIDIA Cosmos cho AI Vật lý",
+      "openUSDFoundationsLearningPath": "Lộ trình Học tập Nền tảng OpenUSD",
+      "gettingStartedSimulatingFirstRobotIsaacSim": "Bắt đầu: Mô phỏng Robot Đầu tiên của Bạn trong Isaac Sim",
+      "ingestingRobotAssetsSimulatingRobotIsaacSim": "Nhập Tài sản Robot và Mô phỏng Robot của Bạn trong Isaac Sim",
+      "syntheticDataGenerationPerceptionModelTrainingIsaacSim": "Tạo Dữ liệu Tổng hợp cho Đào tạo Mô hình Nhận thức trong Isaac Sim",
+      "developingRobotsSoftwareInLoopIsaacSim": "Phát triển Robot với Phần mềm trong Vòng lặp (SIL) trong Isaac Sim",
+      "leveragingROS2HardwareInLoopIsaacSim": "Tận dụng ROS 2 và Phần cứng trong Vòng lặp (HIL) trong Isaac Sim",
+      "developSimulateDeployRobotIntelligenceScaledFoundations": "Phát triển, Mô phỏng và Triển khai Trí tuệ Robot với Nền tảng Mở rộng",
+      "generatingHighQualityMotionDataRoboticsMobilityGen": "Tạo Dữ liệu Chuyển động Chất lượng Cao cho Robot học với MobilityGen",
+      "softwareInLoopTestingRobotsOpenUSDIsaacSIMROS": "Kiểm tra Phần mềm trong Vòng lặp cho Robot với OpenUSD, Isaac SIM và ROS",
+      "introductionRobotLearningIsaacLab": "Giới thiệu về Học Robot và Isaac Lab",
+      "transferringRobotLearningPoliciesSimulationReality": "Chuyển Chính sách Học Robot từ Mô phỏng sang Thực tế",
+      "trainFirstRobotIsaacLab": "Đào tạo Robot Đầu tiên của Bạn trong Isaac Lab",
+      "trainSecondRobotIsaacLab": "Đào tạo Robot Thứ hai của Bạn trong Isaac Lab",
+      "bringYourOwnRobotIntegratingAssetsIsaacLab": "Mang Robot của Riêng Bạn: Tích hợp Tài sản vào Isaac Lab",
+      "imitationLearningGROOTMimic": "Học Bắt chước và GROOT Mimic: Nhân Bội Trình diễn lên 1000",
+      "introductionAIBasedRobotDevelopmentIsaacROS": "Giới thiệu về Phát triển Robot Dựa trên AI với Isaac ROS",
+      "acceleratingROS2NVIDIAGPUPoweredLibrariesAIModels": "Tăng tốc ROS 2 với Thư viện và Mô hình AI Được Hỗ trợ bởi GPU NVIDIA"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "greenBar": "Khóa học Tự học",
+      "purpleBar": "Lộ trình Học tập"
+    }
+  },
+  "acceleratedComputingTraining": {
+    "title": "Đào tạo Tính toán Tăng tốc",
+    "subtitle": "Dành cho quản trị viên",
+    "disclaimer": "Nếu các khóa học được liệt kê dưới một chủ đề, không có thứ tự nào được ngụ ý",
+    "sections": {
+      "overview": "Tổng quan",
+      "nvidiaAIEnterprise": "NVIDIA AI Enterprise",
+      "nvidiaBaseCommandManager": "NVIDIA Base Command Manager",
+      "aiInfrastructureAndOperations": "Hạ tầng và Vận hành AI",
+      "nvidiaDGX": "NVIDIA DGX"
+    },
+    "courses": {
+      "aiInfrastructureOperationsFundamentals": "Cơ bản về Hạ tầng và Vận hành AI",
+      "associateAIInfrastructureOperationsCertification": "Chứng nhận Liên kết Hạ tầng và Vận hành AI",
+      "aiForAllBasicsGenAIPractice": "AI cho Tất cả: Từ Cơ bản đến Thực hành Gen AI",
+      "dataCenterManagementNVIDIAUFM": "Quản lý Trung tâm Dữ liệu Dễ dàng với NVIDIA UFM",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "Quản trị NVIDIA AI Enterprise cho Triển khai VMware vSphere",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise Dành cho Chuyên gia Azure",
+      "baseCommandManagerAdministration": "Quản trị Base Command Manager",
+      "nvidiaBaseCommandManagerPrivateCustomTraining": "NVIDIA Base Command Manager: Đào tạo Tùy chỉnh Riêng tư",
+      "nvidiaAIInfrastructurePublicTraining": "Hạ tầng AI NVIDIA: Đào tạo Công khai",
+      "professionalAIInfrastructureCertification": "Chứng nhận Chuyên nghiệp Hạ tầng AI",
+      "nvidiaAIOperationsPublicTraining": "Vận hành AI NVIDIA: Đào tạo Công khai",
+      "professionalAIOperationsCertification": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "Hạ tầng & Vận hành AI NVIDIA: Đào tạo Công khai",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Công khai",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Riêng tư",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX BasePOD: Hội thảo Riêng tư",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX SuperPOD: Hội thảo Riêng tư"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "aiInfrastructureCertifications": {
+    "title": "Chứng nhận Hạ tầng AI",
+    "subtitle": "Dành cho quản trị viên",
+    "sections": {
+      "associateCertification": "Chứng nhận Liên kết",
+      "infrastructureOperations": "Hạ tầng & Vận hành",
+      "professionalCertifications": "Chứng nhận Chuyên nghiệp",
+      "aiNetworking": "Mạng AI",
+      "aiInfrastructure": "Hạ tầng AI",
+      "aiOperations": "Vận hành AI"
+    },
+    "courses": {
+      "aiInfrastructureOperationsFundamentals": "Cơ bản về Hạ tầng và Vận hành AI",
+      "associateAIInfrastructureOperationsCertification": "Chứng nhận Liên kết Hạ tầng và Vận hành AI NVIDIA",
+      "dataCenterManagementNVIDIAUFM": "Quản lý Trung tâm Dữ liệu Dễ dàng với NVIDIA UFM",
+      "blueFieldDPUAdministration": "Quản trị BlueField DPU",
+      "fundamentalsRDMAProgramming": "Cơ bản về Lập trình RDMA",
+      "nvidiaCumulusLinuxPublicBootCamp": "NVIDIA Cumulus Linux: Boot Camp Công khai",
+      "infiniBandProfessional": "InfiniBand Chuyên nghiệp",
+      "spectrumXNetworkingPlatformAdministrationPublicTraining": "Đào tạo Công khai Quản trị Nền tảng Mạng Spectrum-X",
+      "professionalAINetworkingCertification": "Chứng nhận Chuyên nghiệp Mạng AI NVIDIA",
+      "nvidiaAIInfrastructurePublicTraining": "Hạ tầng AI NVIDIA: Đào tạo Công khai",
+      "professionalAIInfrastructureCertification": "Chứng nhận Chuyên nghiệp Hạ tầng AI NVIDIA",
+      "nvidiaAIOperationsPublicTraining": "Vận hành AI NVIDIA: Đào tạo Công khai",
+      "professionalAIOperationsCertification": "Chứng nhận Chuyên nghiệp Vận hành AI NVIDIA"
+    },
+    "certificationBadges": {
+      "associate": "Chứng nhận Liên kết Hạ tầng và Vận hành AI",
+      "professionalNetworking": "Chứng nhận Chuyên nghiệp Mạng AI",
+      "professionalOperations": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "professionalInfrastructure": "Chứng nhận Chuyên nghiệp Hạ tầng AI"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học",
+      "purpleBar": "Hội thảo Có Giảng viên",
+      "blueBar": "Kỳ thi Chứng nhận"
+    }
+  },
+  "dataCenterCloudTraining": {
+    "title": "Đào tạo Trung tâm Dữ liệu và Điện toán Đám mây",
+    "subtitle": "Dành cho quản trị viên",
+    "disclaimer": "Nếu các khóa học được liệt kê dưới một chủ đề, không có thứ tự nào được ngụ ý",
+    "sections": {
+      "overview": "Tổng quan",
+      "nvidiaAIEnterprise": "NVIDIA AI Enterprise",
+      "clusterAdministration": "Quản trị Cụm",
+      "dpu": "DPU",
+      "nvidiaDGX": "NVIDIA DGX",
+      "aiInfrastructureAndOperations": "Hạ tầng và Vận hành AI"
+    },
+    "courses": {
+      "aiForAllBasicsGenAIPractice": "AI cho Tất cả: Từ Cơ bản đến Thực hành Gen AI",
+      "dataCenterManagementNVIDIAUFM": "Quản lý Trung tâm Dữ liệu Dễ dàng với NVIDIA UFM",
+      "aiInfrastructureOperationsFundamentals": "Cơ bản về Hạ tầng và Vận hành AI",
+      "associateAIInfrastructureOperationsCertification": "Chứng nhận Hạ tầng và Vận hành AI",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "Quản trị NVIDIA AI Enterprise cho Triển khai VMware vSphere",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise Dành cho Chuyên gia Azure",
+      "baseCommandManagerAdministration": "Quản trị Base Command Manager",
+      "nvidiaBlueFieldDPUAdministration": "Quản trị NVIDIA BlueField DPU",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Công khai",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Riêng tư",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX BasePOD: Hội thảo Riêng tư",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX SuperPOD: Hội thảo Riêng tư",
+      "nvidiaAIInfrastructurePublicTraining": "Hạ tầng AI NVIDIA: Đào tạo Công khai",
+      "professionalAIInfrastructureCertification": "Chứng nhận Chuyên nghiệp Hạ tầng AI",
+      "nvidiaAIOperationsPublicTraining": "Vận hành AI NVIDIA: Đào tạo Công khai",
+      "professionalAIOperationsCertification": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "Hạ tầng & Vận hành AI NVIDIA: Đào tạo Công khai"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "dataCenterOverviewTraining": {
+    "title": "Đào tạo Tổng quan Trung tâm Dữ liệu",
+    "subtitle": "Dành cho quản trị viên",
+    "disclaimer": "Nếu các khóa học được liệt kê dưới một chủ đề, không có thứ tự nào được ngụ ý",
+    "sections": {
+      "platformOverview": "Tổng quan Nền tảng",
+      "compute": "Tính toán",
+      "networking": "Mạng",
+      "networkingSoftware": "Phần mềm Mạng"
+    },
+    "courses": {
+      "aiForAllBasicsGenAIPractice": "AI cho Tất cả: Từ Cơ bản đến Thực hành GenAI",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "Quản trị NVIDIA AI Enterprise cho Triển khai VMware vSphere",
+      "dataCenterManagementNVIDIAUFM": "Quản lý Trung tâm Dữ liệu Dễ dàng với NVIDIA UFM",
+      "aiInfrastructureOperationsFundamentals": "Cơ bản về Hạ tầng và Vận hành AI",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise Dành cho Chuyên gia Azure",
+      "baseCommandManagerAdministration": "Quản trị Base Command Manager",
+      "associateAIInfrastructureOperationsCertification": "Chứng nhận Hạ tầng và Vận hành AI",
+      "nvidiaAIEnterpriseAdministratorPrivateCustomizedTraining": "Quản trị viên NVIDIA AI Enterprise: Đào tạo Tùy chỉnh Riêng tư",
+      "nvidiaLicenseSystem": "Hệ thống Giấy phép NVIDIA",
+      "nvidiaAIInfrastructurePublicTraining": "Hạ tầng AI NVIDIA: Đào tạo Công khai",
+      "nvidiaAIOperationsPublicTraining": "Vận hành AI NVIDIA: Đào tạo Công khai",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "Hạ tầng & Vận hành AI NVIDIA: Đào tạo Công khai",
+      "professionalAIInfrastructureCertification": "Chứng nhận Chuyên nghiệp Hạ tầng AI",
+      "professionalAIOperationsCertification": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX BasePOD: Hội thảo Riêng tư",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX SuperPOD: Hội thảo Riêng tư",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Công khai",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Riêng tư",
+      "introductionNetworking": "Giới thiệu về Mạng",
+      "nvidiaBlueFieldDPUAdministration": "Quản trị NVIDIA BlueField DPU",
+      "infiniBandEssentials": "Cơ bản về InfiniBand",
+      "networkAdministrationNVIDIAOnyxSwitchSystem": "Quản trị Mạng với Hệ thống Chuyển mạch NVIDIA Onyx",
+      "fundamentalsRDMAProgramming": "Cơ bản về Lập trình RDMA",
+      "ansibleEssentialsNetworkEngineers": "Cơ bản về Ansible cho Kỹ sư Mạng"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "infrastructureGenAILLMTraining": {
+    "title": "Đào tạo Hạ tầng cho AI Tạo sinh và Mô hình Ngôn ngữ Lớn",
+    "subtitle": "Dành cho quản trị viên",
+    "disclaimer": "Nếu các khóa học được liệt kê dưới một chủ đề, không có thứ tự nào được ngụ ý",
+    "sections": {
+      "overview": "Tổng quan",
+      "introductionNetworking": "Giới thiệu về Mạng",
+      "additionalRecommendedTraining": "Đào tạo Khuyến nghị Bổ sung",
+      "nvidiaAIEnterprise": "NVIDIA AI Enterprise",
+      "nvidiaDGX": "NVIDIA DGX"
+    },
+    "courses": {
+      "aiForAllBasicsGenAIPractice": "AI cho Tất cả: Từ Cơ bản đến Thực hành Gen AI",
+      "aiInfrastructureOperationsFundamentals": "Cơ bản về Hạ tầng và Vận hành AI",
+      "associateAIInfrastructureOperationsCertification": "Chứng nhận Hạ tầng và Vận hành AI",
+      "nvidiaAIInfrastructurePublicTraining": "Hạ tầng AI NVIDIA: Đào tạo Công khai",
+      "professionalAIInfrastructureCertification": "Chứng nhận Chuyên nghiệp Hạ tầng AI",
+      "nvidiaAIOperationsPublicTraining": "Vận hành AI NVIDIA: Đào tạo Công khai",
+      "professionalAIOperationsCertification": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "Hạ tầng & Vận hành AI NVIDIA: Đào tạo Công khai",
+      "introductionNetworking": "Giới thiệu về Mạng",
+      "infiniBandEssentials": "Cơ bản về InfiniBand",
+      "baseCommandManagerAdministration": "Quản trị Base Command Manager",
+      "dataCenterManagementNVIDIAUFM": "Quản lý Trung tâm Dữ liệu Dễ dàng với NVIDIA UFM",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "Quản trị NVIDIA AI Enterprise cho Triển khai VMware vSphere",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise Dành cho Chuyên gia Azure",
+      "nvidiaAIEnterpriseAdministratorPrivateCustomizedTraining": "Quản trị viên NVIDIA AI Enterprise: Đào tạo Tùy chỉnh Riêng tư",
+      "rapidsAcceleratorApacheSpark": "RAPIDS Accelerator cho Apache Spark",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Công khai",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "Quản trị Hệ thống NVIDIA DGX: Hội thảo Riêng tư",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX BasePOD: Hội thảo Riêng tư",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "Quản trị NVIDIA DGX SuperPOD: Hội thảo Riêng tư"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "networkingTraining": {
+    "title": "Đào tạo Mạng",
+    "subtitle": "Dành cho quản trị viên",
+    "disclaimer": "Nếu các khóa học được liệt kê dưới một chủ đề, không có thứ tự nào được ngụ ý",
+    "sections": {
+      "overview": "Tổng quan",
+      "nvidiaCumulus": "NVIDIA Cumulus",
+      "aiNetworking": "Mạng AI",
+      "other": "Khác"
+    },
+    "courses": {
+      "introductionNetworking": "Giới thiệu về Mạng",
+      "aiForAllBasicsGenAIPractice": "AI cho Tất cả: Từ Cơ bản đến Thực hành Gen AI",
+      "nvidiaCumulusLinuxPublicBootCamp": "NVIDIA Cumulus Linux: Trại Huấn luyện Công khai",
+      "nvidiaCumulusLinuxPrivateCustomizedWorkshop": "NVIDIA Cumulus Linux: Hội thảo Tùy chỉnh Riêng tư",
+      "dataCenterManagementNVIDIAUFM": "Quản lý Trung tâm Dữ liệu Dễ dàng với NVIDIA UFM",
+      "blueFieldDPUAdministration": "Quản trị BlueField DPU",
+      "fundamentalsRDMAProgramming": "Cơ bản về Lập trình RDMA",
+      "infiniBandProfessional": "InfiniBand Chuyên nghiệp",
+      "spectrumXNetworkingPlatformAdministrationPublicTraining": "Đào tạo Công khai Quản trị Nền tảng Mạng Spectrum-X",
+      "aiNetworkingProfessionalCertification": "Chứng nhận Chuyên nghiệp Mạng AI",
+      "networkAdministrationNVIDIAOnyxSwitchSystem": "Quản trị Mạng với Hệ thống Chuyển mạch NVIDIA Onyx",
+      "rdmaOverConvergedEthernet": "RDMA qua Ethernet Hội tụ từ A đến Z",
+      "nvidiaAIInfrastructurePublicTraining": "Hạ tầng AI NVIDIA: Đào tạo Công khai",
+      "professionalAIInfrastructureCertification": "Chứng nhận Chuyên nghiệp Hạ tầng AI",
+      "nvidiaAIOperationsPublicTraining": "Vận hành AI NVIDIA: Đào tạo Công khai",
+      "professionalAIOperationsCertification": "Chứng nhận Chuyên nghiệp Vận hành AI",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "Hạ tầng & Vận hành AI NVIDIA: Đào tạo Công khai"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
   "simulationModelingDesign": {
     "title": "Đào tạo Mô phỏng, Mô hình hóa và Thiết kế",
     "subtitle": "Dành cho nhà phát triển và quản trị viên",

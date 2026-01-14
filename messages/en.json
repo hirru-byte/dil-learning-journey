@@ -178,6 +178,181 @@
       "blueBar": "NVIDIA Certification Exam"
     }
   },
+  "genAILLMCertifications": {
+    "title": "Gen AI LLM Certifications For developers",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Gen AI Learning Path Webpage",
+    "certificationBadge": "NVIDIA Certified Associate Gen AI LLMs",
+    "sections": {
+      "fundamentals": "Fundamentals",
+      "generativeAIAndLLMs": "Generative AI and LLMs",
+      "professional": "Professional"
+    },
+    "courses": {
+      "whatIsTrustworthyAI": "What is Trustworthy AI?",
+      "fundamentalsOfDeepLearning": "Fundamentals of Deep Learning",
+      "fundamentalsOfAcceleratedDataScience": "Fundamentals of Accelerated Data Science",
+      "buildingTransformerBasedNLP": "Building Transformer-Based Natural Language Processing Applications",
+      "buildingLLMApplicationsPromptEngineering": "Building LLM Applications With Prompt Engineering",
+      "rapidApplicationDevelopmentLLMs": "Rapid Application Development with Large Language Models",
+      "associateCertificationExam": "NVIDIA-Certified Associate Generative AI Large Language Models",
+      "buildingRAGAgentsLLMs": "Building RAG Agents with LLMs",
+      "addingNewKnowledgeLLMs": "Adding New Knowledge to LLMs",
+      "modelParallelismLargeNeuralNetworks": "Model Parallelism: Building and Deploying Large Neural Networks",
+      "deployingRAGPipelinesProduction": "Deploying RAG Pipelines for Production at Scale",
+      "optimizingCUDAMLNsight": "Optimizing CUDA ML Codes With NVIDIA Nsight's Profiling Tools",
+      "professionalCertificationExam": "NVIDIA-Certified Professional Generative AI Large Language Models"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "genAIMultimodalCertifications": {
+    "title": "Gen AI Multimodal Certification",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Gen AI Learning Path Webpage",
+    "certificationBadge": "NVIDIA Certified Associate Gen AI Multimodal",
+    "sections": {
+      "fundamentals": "Fundamentals",
+      "generativeAIAndMultimodal": "Generative AI and Multimodal",
+      "certification": "Certification"
+    },
+    "courses": {
+      "fundamentalsOfDeepLearning": "Fundamentals of Deep Learning",
+      "buildingTransformerBasedNLP": "Building Transformer-Based Natural Language Processing Applications",
+      "buildingConversationalAI": "Building Conversational AI Applications",
+      "generativeAIWithDiffusionModels": "Generative AI With Diffusion Models",
+      "buildingAIAgentsMultimodalModels": "Building AI Agents with Multimodal Models",
+      "associateCertificationExam": "NVIDIA Certified Associate Generative AI Multimodal"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "generativeAILLMTraining": {
+    "title": "Generative AI and LLM Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Gen AI Learning Path Webpage",
+    "sections": {
+      "foundational": "Foundational",
+      "buildApplicationsWithLLMs": "Build Applications with LLMs",
+      "retrievalAugmentedGeneration": "Retrieval Augmented Generation",
+      "dataGeneration": "Data Generation",
+      "dataCurationModelCustomization": "Data Curation, Model Customization and Large-Scale Training",
+      "inferenceAndDeployment": "Inference and Deployment",
+      "agenticAI": "Agentic AI"
+    },
+    "courses": {
+      "generativeAIExplained": "Generative AI Explained",
+      "buildingBrain10Minutes": "Building a Brain in 10 Minutes",
+      "fundamentalsOfDeepLearning": "Fundamentals of Deep Learning",
+      "introductionTransformerBasedNLP": "Introduction to Transformer-Based Natural Language Processing",
+      "buildingTransformerBasedNLPApplications": "Building Transformer-Based Natural Language Processing Applications",
+      "buildingConversationalAI": "Building Conversational AI Applications",
+      "buildingLLMApplicationsPromptEngineering": "Building LLM Applications With Prompt Engineering",
+      "rapidApplicationDevelopmentLLMs": "Rapid Application Development with Large Language Models",
+      "buildingAIAgentsMultimodalModels": "Building AI Agents with Multimodal Models",
+      "augmentLLMUsingRAG": "Augment Your LLM Using Retrieval Augmented Generation",
+      "buildingRAGAgentsLLMs": "Building RAG Agents with LLMs",
+      "evaluatingRAGSemanticSearch": "Evaluating RAG and Semantic Search Systems",
+      "techniquesImprovingRAGEffectiveness": "Techniques for Improving the Effectiveness of RAG Systems",
+      "generativeAIWithDiffusionModels": "Generative AI With Diffusion Models",
+      "gettingStartedNVIDIAToolsGenerativeAIDigitalHealth": "Getting Started with NVIDIA Tools for Generative AI in Digital Health",
+      "streamliningDrugDiscoveryBioNeMo": "Streamlining Drug Discovery with NVIDIA BioNeMo NIM Microservices and Blueprints",
+      "syntheticTabularDataGenerationTransformers": "Synthetic Tabular Data Generation Using Transformers",
+      "introductionMultiModalDataCuration": "Introduction to Multi-Modal Data Curation",
+      "domainAdaptivePreTraining": "Domain-Adaptive Pre-Training: Tailoring LLMs for Specialized Applications",
+      "evaluationLightCustomizationLLMs": "Evaluation and Light Customization of Large Language Models",
+      "addingNewKnowledgeLLMs": "Adding New Knowledge to LLMs",
+      "modelParallelismLargeNeuralNetworks": "Model Parallelism: Building and Deploying Large Neural Networks",
+      "introductionNVIDIANIMMicroservices": "Introduction to NVIDIA NIM Microservices",
+      "sizingLLMInferenceSystems": "Sizing LLM Inference Systems",
+      "introductionDeployingRAGPipelines": "Introduction to Deploying RAG Pipelines for Production at Scale",
+      "deployingRAGPipelinesProduction": "Deploying RAG Pipelines for Production at Scale",
+      "buildingAgenticAIApplicationsLLMs": "Building Agentic AI Applications with LLMs"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  },
+  "industrialDigitalTwinsTraining": {
+    "title": "Industrial Digital Twins Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Industrial Digital Twins Learning Path Webpage",
+    "sections": {
+      "digitalTwinFoundations": "Digital Twin Foundations",
+      "gettingStartedOmniverseDevelopment": "Getting Started with Omniverse Development",
+      "assemblingOpenUSDDataDigitalTwins": "Assembling OpenUSD Data for Digital Twins"
+    },
+    "courses": {
+      "whatIsDigitalTwin": "What is a Digital Twin?",
+      "fundamentalsWorkingOpenUSD": "Fundamentals of Working With OpenUSD",
+      "openUSDFoundationsLearningPath": "OpenUSD Foundations Learning Path",
+      "introductionDevelopingNVIDIAOmniverse": "An Introduction to Developing with NVIDIA Omniverse",
+      "creatingOmniverseExtensionPython": "Creating an Omniverse Extension with Python",
+      "extendingOmniverseKitApplicationsDigitalTwins": "Extending Omniverse Kit Applications for Building Digital Twins",
+      "customizingUIFrontEndDashboardsDigitalTwins": "Customizing UI and Front-End Dashboards for Digital Twins",
+      "buildingDeployingDigitalTwinApplicationsOmniverseKitAppStreaming": "Building and Deploying Digital Twin Applications with Omniverse Kit App Streaming",
+      "assemblingFirstDigitalTwinOmniverseOpenUSD": "Assembling Your First Digital Twin with Omniverse and OpenUSD",
+      "preparing3DAssetsSimulationPhysicalAI": "Preparing 3D Assets for Simulation and Physical AI",
+      "learnOpenUSDCreatingCompositionArcs": "Learn OpenUSD: Creating Composition Arcs",
+      "learnOpenUSDAssetStructurePrinciples": "Learn OpenUSD: Asset Structure Principles and Content Aggregation",
+      "learnOpenUSDDevelopingDataExchangePipelines": "Learn OpenUSD: Developing Data Exchange Pipelines",
+      "learnOpenUSDAssetModularityInstancing": "Learn OpenUSD: Asset Modularity and Instancing",
+      "syntheticDataGenerationGenerativeAIReferenceWorkflow": "Synthetic Data Generation with Generative AI Reference Workflow",
+      "roboticsFundamentalsLearningPath": "Robotics Fundamentals Learning Path",
+      "introductionNVIDIACosmosPhysicalAI": "An Introduction to NVIDIA Cosmos for Physical AI",
+      "buildingAIAgentsMultimodalModels": "Building AI Agents with Multimodal Models"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "greyBar": "Article / Blog",
+      "greenBar": "Self-paced Course",
+      "purpleBar": "Learning Path"
+    }
+  },
+  "industryRelatedTraining": {
+    "title": "Industry-Related Training",
+    "subtitle": "For developers",
+    "disclaimer": "If courses are listed under a topic, no order is implied",
+    "sections": {
+      "energyAndManufacturing": "Energy and Manufacturing",
+      "healthcareAndLifeSciences": "Healthcare and Life Sciences",
+      "financialServices": "Financial Services"
+    },
+    "courses": {
+      "computerVisionIndustrialInspection": "Computer Vision for Industrial Inspection",
+      "applicationsAIPredictiveMaintenance": "Applications of AI for Predictive Maintenance",
+      "acceleratingCAENVIDIAAIPhysicsTechnology": "Accelerating Computer-Aided Engineering (CAE) with NVIDIA AI Physics Technology",
+      "accelerateDataScienceLeverageFoundationModelsDigitalBiology": "Accelerate Data Science and Leverage Foundation Models in Digital Biology",
+      "streamliningDrugDiscoveryBioNeMo": "Streamlining Drug Discovery with NVIDIA BioNeMo NIM Microservices and Blueprints",
+      "gettingStartedNVIDIAToolsGenerativeAIDigitalHealth": "Getting Started with NVIDIA Tools for Generative AI in Digital Health",
+      "medicalAIDevelopmentMONAI": "Medical AI Development with MONAI: Interactive Annotation Using NVIDIA NIM Microservices",
+      "introductionFederatedLearningNVIDIAFLARE": "Introduction to Federated Learning with NVIDIA FLARE",
+      "decentralizedAIScaleNVIDIAFlare": "Decentralized AI at Scale with NVIDIA Flare",
+      "acceleratingPortfolioOptimization": "Accelerating Portfolio Optimization",
+      "applicationsAIAnomalyDetection": "Applications of AI for Anomaly Detection"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  },
   "simulationModelingDesign": {
     "title": "Simulation, Modeling, and Design Training",
     "subtitle": "For developers and administrators",
@@ -215,6 +390,312 @@
       "asterisk": "NVIDIA Certificate of Competency",
       "greenBar": "NVIDIA Self-paced Course",
       "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  },
+  "openUSDCertification": {
+    "title": "OpenUSD Certification",
+    "subtitle": "For developers and administrators",
+    "linkToLearningPath": "Link to OpenUSD Learning Path Webpage",
+    "certificationBadge": "NVIDIA Certified Professional OpenUSD Development",
+    "sections": {
+      "professionalCertification": "Professional Certification",
+      "fundamentals": "Fundamentals",
+      "appliedConcepts": "Applied Concepts",
+      "certification": "Certification"
+    },
+    "courses": {
+      "learnOpenUSDStagesPrimsAttributes": "Learn OpenUSD: Learning About Stages, Prims, and Attributes",
+      "learnOpenUSDWorkingPrimsSchemas": "Learn OpenUSD: Working With Prims and Default Schemas",
+      "learnOpenUSDUsingAttributes": "Learn OpenUSD: Using Attributes",
+      "learnOpenUSDTraversingStages": "Learn OpenUSD: Traversing Stages",
+      "learnOpenUSDUnderstandingModelKinds": "Learn OpenUSD: Understanding Model Kinds",
+      "learnOpenUSDSettingUpAnimations": "Learn OpenUSD: Setting Up Basic Animations",
+      "learnOpenUSDCreatingCompositionArcs": "Learn OpenUSD: Creating Composition Arcs",
+      "learnOpenUSDAssetStructurePrinciples": "Learn OpenUSD: Asset Structure Principles and Content Aggregation",
+      "learnOpenUSDDevelopingDataExchangePipelines": "Learn OpenUSD: Developing Data Exchange Pipelines",
+      "professionalCertificationExam": "NVIDIA-Certified Professional OpenUSD Development"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "Self-paced Course",
+      "blueBar": "Certification Exam"
+    }
+  },
+  "roboticsTraining": {
+    "title": "Robotics Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Robotics Learning Path Webpage",
+    "sections": {
+      "roboticsFoundations": "Robotics Foundations",
+      "gettingStartedIsaacSim": "Getting Started with Isaac Sim",
+      "gettingStartedIsaacLab": "Getting Started with Isaac Lab",
+      "gettingStartedIsaacROS": "Getting Started with Isaac ROS"
+    },
+    "courses": {
+      "beginnersGuideAutonomousRobots": "A Beginner's Guide to Autonomous Robots",
+      "introductionNVIDIACosmosPhysicalAI": "An Introduction to NVIDIA Cosmos for Physical AI",
+      "openUSDFoundationsLearningPath": "OpenUSD Foundations Learning Path",
+      "gettingStartedSimulatingFirstRobotIsaacSim": "Getting Started: Simulating Your First Robot in Isaac Sim",
+      "ingestingRobotAssetsSimulatingRobotIsaacSim": "Ingesting Robot Assets and Simulating Your Robot in Isaac Sim",
+      "syntheticDataGenerationPerceptionModelTrainingIsaacSim": "Synthetic Data Generation for Perception Model Training in Isaac Sim",
+      "developingRobotsSoftwareInLoopIsaacSim": "Developing Robots with Software-in-the-Loop (SIL) in Isaac Sim",
+      "leveragingROS2HardwareInLoopIsaacSim": "Leveraging ROS 2 and Hardware-in-the-Loop (HIL) in Isaac Sim",
+      "developSimulateDeployRobotIntelligenceScaledFoundations": "Develop, Simulate, and Deploy Robot Intelligence with Scaled Foundations",
+      "generatingHighQualityMotionDataRoboticsMobilityGen": "Generating High-Quality Motion Data for Robotics with MobilityGen",
+      "softwareInLoopTestingRobotsOpenUSDIsaacSIMROS": "Software-in-the-loop Testing for Robots with OpenUSD, Isaac SIM, and ROS",
+      "introductionRobotLearningIsaacLab": "An Introduction to Robot Learning and Isaac Lab",
+      "transferringRobotLearningPoliciesSimulationReality": "Transferring Robot Learning Policies from Simulation to Reality",
+      "trainFirstRobotIsaacLab": "Train Your First Robot in Isaac Lab",
+      "trainSecondRobotIsaacLab": "Train Your Second Robot in Isaac Lab",
+      "bringYourOwnRobotIntegratingAssetsIsaacLab": "Bring Your Own Robot: Integrating Assets into Isaac Lab",
+      "imitationLearningGROOTMimic": "Imitation Learning and GROOT Mimic: Multiplying Demonstrations by 1000",
+      "introductionAIBasedRobotDevelopmentIsaacROS": "An Introduction to AI-Based Robot Development With Isaac ROS",
+      "acceleratingROS2NVIDIAGPUPoweredLibrariesAIModels": "Accelerating ROS 2 with NVIDIA GPU-Powered Libraries and AI Models"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "greenBar": "Self-paced Course",
+      "purpleBar": "Learning Path"
+    }
+  },
+  "acceleratedComputingTraining": {
+    "title": "Accelerated Computing Training",
+    "subtitle": "For administrators",
+    "disclaimer": "If courses are listed under a topic, no order is implied",
+    "sections": {
+      "overview": "Overview",
+      "nvidiaAIEnterprise": "NVIDIA AI Enterprise",
+      "nvidiaBaseCommandManager": "NVIDIA Base Command Manager",
+      "aiInfrastructureAndOperations": "AI Infrastructure and Operations",
+      "nvidiaDGX": "NVIDIA DGX"
+    },
+    "courses": {
+      "aiInfrastructureOperationsFundamentals": "AI Infrastructure and Operations Fundamentals",
+      "associateAIInfrastructureOperationsCertification": "Associate AI Infrastructure and Operations Certification",
+      "aiForAllBasicsGenAIPractice": "AI for All: From Basics to Gen AI Practice",
+      "dataCenterManagementNVIDIAUFM": "Data Center Management Made Easy With NVIDIA UFM",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "NVIDIA AI Enterprise Administration for VMware vSphere Deployment",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise For Azure Professionals",
+      "baseCommandManagerAdministration": "Base Command Manager Administration",
+      "nvidiaBaseCommandManagerPrivateCustomTraining": "NVIDIA Base Command Manager: Private Custom Training",
+      "nvidiaAIInfrastructurePublicTraining": "NVIDIA AI Infrastructure: Public Training",
+      "professionalAIInfrastructureCertification": "Professional AI Infrastructure Certification",
+      "nvidiaAIOperationsPublicTraining": "NVIDIA AI Operations: Public Training",
+      "professionalAIOperationsCertification": "Professional AI Operations Certification",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "NVIDIA AI Infrastructure & Operations: Public Training",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "NVIDIA DGX System Administration: Public Workshop",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "NVIDIA DGX System Administration: Private Workshop",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "NVIDIA DGX BasePOD Administration: Private Workshop",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "NVIDIA DGX SuperPOD Administration: Private Workshop"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "aiInfrastructureCertifications": {
+    "title": "AI Infrastructure Certifications",
+    "subtitle": "For administrators",
+    "sections": {
+      "associateCertification": "Associate Certification",
+      "infrastructureOperations": "Infrastructure & Operations",
+      "professionalCertifications": "Professional Certifications",
+      "aiNetworking": "AI Networking",
+      "aiInfrastructure": "AI Infrastructure",
+      "aiOperations": "AI Operations"
+    },
+    "courses": {
+      "aiInfrastructureOperationsFundamentals": "AI Infrastructure and Operations Fundamentals",
+      "associateAIInfrastructureOperationsCertification": "NVIDIA-Certified Associate AI Infrastructure and Operations Certification",
+      "dataCenterManagementNVIDIAUFM": "Data Center Management Made Easy with NVIDIA UFM",
+      "blueFieldDPUAdministration": "BlueField DPU Administration",
+      "fundamentalsRDMAProgramming": "Fundamentals of RDMA Programming",
+      "nvidiaCumulusLinuxPublicBootCamp": "NVIDIA Cumulus Linux: Public Boot Camp",
+      "infiniBandProfessional": "InfiniBand Professional",
+      "spectrumXNetworkingPlatformAdministrationPublicTraining": "Spectrum-X Networking Platform Administration Public Training",
+      "professionalAINetworkingCertification": "NVIDIA-Certified Professional AI Networking",
+      "nvidiaAIInfrastructurePublicTraining": "NVIDIA AI Infrastructure: Public Training",
+      "professionalAIInfrastructureCertification": "NVIDIA-Certified Professional AI Infrastructure Certification",
+      "nvidiaAIOperationsPublicTraining": "NVIDIA AI Operations: Public Training",
+      "professionalAIOperationsCertification": "NVIDIA-Certified Professional AI Operations Certification"
+    },
+    "certificationBadges": {
+      "associate": "Certified Associate AI Infrastructure and Operations",
+      "professionalNetworking": "Certified Professional AI Networking",
+      "professionalOperations": "Certified Professional AI Operations",
+      "professionalInfrastructure": "Certified Professional AI Infrastructure"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "Self-paced Course",
+      "purpleBar": "Instructor-Led Workshop",
+      "blueBar": "Certification Exam"
+    }
+  },
+  "dataCenterCloudTraining": {
+    "title": "Data Center and Cloud Training",
+    "subtitle": "For administrators",
+    "disclaimer": "If courses are listed under a topic, no order is implied",
+    "sections": {
+      "overview": "Overview",
+      "nvidiaAIEnterprise": "NVIDIA AI Enterprise",
+      "clusterAdministration": "Cluster Administration",
+      "dpu": "DPU",
+      "nvidiaDGX": "NVIDIA DGX",
+      "aiInfrastructureAndOperations": "AI Infrastructure and Operations"
+    },
+    "courses": {
+      "aiForAllBasicsGenAIPractice": "AI for All: From Basics to Gen AI Practice",
+      "dataCenterManagementNVIDIAUFM": "Data Center Management Made Easy With NVIDIA UFM",
+      "aiInfrastructureOperationsFundamentals": "AI Infrastructure and Operations Fundamentals",
+      "associateAIInfrastructureOperationsCertification": "AI Infrastructure and Operations Certification",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "NVIDIA AI Enterprise Administration for VMware vSphere Deployment",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise For Azure Professionals",
+      "baseCommandManagerAdministration": "Base Command Manager Administration",
+      "nvidiaBlueFieldDPUAdministration": "NVIDIA BlueField DPU Administration",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "NVIDIA DGX System Administration: Public Workshop",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "NVIDIA DGX System Administration: Private Workshop",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "NVIDIA DGX BasePOD Administration: Private Workshop",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "NVIDIA DGX SuperPOD Administration: Private Workshop",
+      "nvidiaAIInfrastructurePublicTraining": "NVIDIA AI Infrastructure: Public Training",
+      "professionalAIInfrastructureCertification": "Professional AI Infrastructure Certification",
+      "nvidiaAIOperationsPublicTraining": "NVIDIA AI Operations: Public Training",
+      "professionalAIOperationsCertification": "Professional AI Operations Certification",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "NVIDIA AI Infrastructure & Operations: Public Training"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "dataCenterOverviewTraining": {
+    "title": "Data Center Overview Training",
+    "subtitle": "For administrators",
+    "disclaimer": "If courses are listed under a topic, no order is implied",
+    "sections": {
+      "platformOverview": "Platform Overview",
+      "compute": "Compute",
+      "networking": "Networking",
+      "networkingSoftware": "Networking Software"
+    },
+    "courses": {
+      "aiForAllBasicsGenAIPractice": "AI for All: From Basics to GenAI Practice",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "NVIDIA AI Enterprise Administration for VMware vSphere Deployment",
+      "dataCenterManagementNVIDIAUFM": "Data Center Management Made Easy With NVIDIA UFM",
+      "aiInfrastructureOperationsFundamentals": "AI Infrastructure and Operations Fundamentals",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise For Azure Professionals",
+      "baseCommandManagerAdministration": "Base Command Manager Administration",
+      "associateAIInfrastructureOperationsCertification": "AI Infrastructure and Operations Certification",
+      "nvidiaAIEnterpriseAdministratorPrivateCustomizedTraining": "NVIDIA AI Enterprise Administrator: Private Customized Training",
+      "nvidiaLicenseSystem": "NVIDIA License System",
+      "nvidiaAIInfrastructurePublicTraining": "NVIDIA AI Infrastructure: Public Training",
+      "nvidiaAIOperationsPublicTraining": "NVIDIA AI Operations: Public Training",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "NVIDIA AI Infrastructure & Operations: Public Training",
+      "professionalAIInfrastructureCertification": "Professional AI Infrastructure Certification",
+      "professionalAIOperationsCertification": "Professional AI Operations Certification",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "NVIDIA DGX BasePOD Administration: Private Workshop",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "NVIDIA DGX SuperPOD Administration: Private Workshop",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "NVIDIA DGX System Administration: Public Workshop",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "NVIDIA DGX System Administration: Private Workshop",
+      "introductionNetworking": "Introduction to Networking",
+      "nvidiaBlueFieldDPUAdministration": "NVIDIA BlueField DPU Administration",
+      "infiniBandEssentials": "InfiniBand Essentials",
+      "networkAdministrationNVIDIAOnyxSwitchSystem": "Network Administration With NVIDIA Onyx Switch System",
+      "fundamentalsRDMAProgramming": "Fundamentals of RDMA Programming",
+      "ansibleEssentialsNetworkEngineers": "Ansible Essentials for Network Engineers"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "infrastructureGenAILLMTraining": {
+    "title": "Infrastructure for Generative AI and Large Language Models Training",
+    "subtitle": "For administrators",
+    "disclaimer": "If courses are listed under a topic, no order is implied",
+    "sections": {
+      "overview": "Overview",
+      "introductionNetworking": "Introduction to Networking",
+      "additionalRecommendedTraining": "Additional Recommended Training",
+      "nvidiaAIEnterprise": "NVIDIA AI Enterprise",
+      "nvidiaDGX": "NVIDIA DGX"
+    },
+    "courses": {
+      "aiForAllBasicsGenAIPractice": "AI for All: From Basics to Gen AI Practice",
+      "aiInfrastructureOperationsFundamentals": "AI Infrastructure and Operations Fundamentals",
+      "associateAIInfrastructureOperationsCertification": "AI Infrastructure and Operations Certification",
+      "nvidiaAIInfrastructurePublicTraining": "NVIDIA AI Infrastructure: Public Training",
+      "professionalAIInfrastructureCertification": "Professional AI Infrastructure Certification",
+      "nvidiaAIOperationsPublicTraining": "NVIDIA AI Operations: Public Training",
+      "professionalAIOperationsCertification": "Professional AI Operations Certification",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "NVIDIA AI Infrastructure & Operations: Public Training",
+      "introductionNetworking": "Introduction to Networking",
+      "infiniBandEssentials": "InfiniBand Essentials",
+      "baseCommandManagerAdministration": "Base Command Manager Administration",
+      "dataCenterManagementNVIDIAUFM": "Data Center Management Made Easy With NVIDIA UFM",
+      "nvidiaAIEnterpriseAdministrationVMwarevSphere": "NVIDIA AI Enterprise Administration for VMware vSphere Deployment",
+      "nvidiaAIEnterpriseForAzureProfessionals": "NVIDIA AI Enterprise For Azure Professionals",
+      "nvidiaAIEnterpriseAdministratorPrivateCustomizedTraining": "NVIDIA AI Enterprise Administrator: Private Customized Training",
+      "rapidsAcceleratorApacheSpark": "RAPIDS Accelerator for Apache Spark",
+      "nvidiaDGXSystemAdministrationPublicWorkshop": "NVIDIA DGX System Administration: Public Workshop",
+      "nvidiaDGXSystemAdministrationPrivateWorkshop": "NVIDIA DGX System Administration: Private Workshop",
+      "nvidiaDGXBasePODAdministrationPrivateWorkshop": "NVIDIA DGX BasePOD Administration: Private Workshop",
+      "nvidiaDGXSuperPODAdministrationPrivateWorkshop": "NVIDIA DGX SuperPOD Administration: Private Workshop"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "networkingTraining": {
+    "title": "Networking Training",
+    "subtitle": "For administrators",
+    "disclaimer": "If courses are listed under a topic, no order is implied",
+    "sections": {
+      "overview": "Overview",
+      "nvidiaCumulus": "NVIDIA Cumulus",
+      "aiNetworking": "AI Networking",
+      "other": "Other"
+    },
+    "courses": {
+      "introductionNetworking": "Introduction to Networking",
+      "aiForAllBasicsGenAIPractice": "AI for All: From Basics to Gen AI Practice",
+      "nvidiaCumulusLinuxPublicBootCamp": "NVIDIA Cumulus Linux: Public Boot Camp",
+      "nvidiaCumulusLinuxPrivateCustomizedWorkshop": "NVIDIA Cumulus Linux: Private Customized Workshop",
+      "dataCenterManagementNVIDIAUFM": "Data Center Management Made Easy with NVIDIA UFM",
+      "blueFieldDPUAdministration": "BlueField DPU Administration",
+      "fundamentalsRDMAProgramming": "Fundamentals of RDMA Programming",
+      "infiniBandProfessional": "InfiniBand Professional",
+      "spectrumXNetworkingPlatformAdministrationPublicTraining": "Spectrum-X Networking Platform Administration Public Training",
+      "aiNetworkingProfessionalCertification": "AI Networking Professional Certification",
+      "networkAdministrationNVIDIAOnyxSwitchSystem": "Network Administration With NVIDIA Onyx Switch System",
+      "rdmaOverConvergedEthernet": "RDMA Over Converged Ethernet from A to Z",
+      "nvidiaAIInfrastructurePublicTraining": "NVIDIA AI Infrastructure: Public Training",
+      "professionalAIInfrastructureCertification": "Professional AI Infrastructure Certification",
+      "nvidiaAIOperationsPublicTraining": "NVIDIA AI Operations: Public Training",
+      "professionalAIOperationsCertification": "Professional AI Operations Certification",
+      "nvidiaAIInfrastructureOperationsPublicTraining": "NVIDIA AI Infrastructure & Operations: Public Training"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
     }
   },
   "computerVisionVideoAnalytics": {

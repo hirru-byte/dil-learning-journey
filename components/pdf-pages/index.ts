@@ -10,6 +10,19 @@ export { default as ComputerVisionVideoAnalyticsPage } from './ComputerVisionVid
 export { default as DataSciencePage } from './DataSciencePage';
 export { default as DataScienceTrainingPage } from './DataScienceTrainingPage';
 export { default as DeepLearningTrainingPage } from './DeepLearningTrainingPage';
+export { default as GenAILLMCertificationsPage } from './GenAILLMCertificationsPage';
+export { default as GenAIMultimodalCertificationsPage } from './GenAIMultimodalCertificationsPage';
+export { default as GenerativeAILLMTrainingPage } from './GenerativeAILLMTrainingPage';
+export { default as IndustrialDigitalTwinsTrainingPage } from './IndustrialDigitalTwinsTrainingPage';
+export { default as IndustryRelatedTrainingPage } from './IndustryRelatedTrainingPage';
+export { default as OpenUSDCertificationPage } from './OpenUSDCertificationPage';
+export { default as RoboticsTrainingPage } from './RoboticsTrainingPage';
+export { default as AcceleratedComputingTrainingPage } from './AcceleratedComputingTrainingPage';
+export { default as AIInfrastructureCertificationsPage } from './AIInfrastructureCertificationsPage';
+export { default as DataCenterCloudTrainingPage } from './DataCenterCloudTrainingPage';
+export { default as DataCenterOverviewTrainingPage } from './DataCenterOverviewTrainingPage';
+export { default as InfrastructureGenAILLMTrainingPage } from './InfrastructureGenAILLMTrainingPage';
+export { default as NetworkingTrainingPage } from './NetworkingTrainingPage';
 
 // Export shared ReactFlow component
 export { default as ReactFlowCurriculum } from './ReactFlowCurriculum';

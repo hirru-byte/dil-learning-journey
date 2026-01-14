@@ -28,7 +28,7 @@ export interface CourseNodeData extends Record<string, unknown> {
     title: string;
     duration: string;
     price?: string;
-    type?: 'green' | 'purple' | 'blue' | 'split';
+    type?: 'green' | 'purple' | 'blue' | 'split' | 'grey';
     hasAsterisk?: boolean;
     hasDoubleAsterisk?: boolean;
     link?: string;

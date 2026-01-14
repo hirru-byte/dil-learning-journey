@@ -5,7 +5,7 @@ interface CourseCardProps {
     title: string;
     duration: string;
     price?: string;
-    type?: 'green' | 'purple' | 'blue' | 'split';
+    type?: 'green' | 'purple' | 'blue' | 'split' | 'grey';
     hasAsterisk?: boolean;
     hasDoubleAsterisk?: boolean;
     link?: string;
@@ -79,10 +79,12 @@ export default function CourseCard({
         const bgColor =
             type === 'green' ? 'bg-green-500' :
                 type === 'purple' ? 'bg-purple-600' :
-                    'bg-blue-600';
+                    type === 'grey' ? 'bg-gray-500' :
+                        'bg-blue-600';
+        const displayText = price ? `${duration} | ${price}` : duration;
         return (
             <div className={`${bgColor} py-2 sm:py-3 px-2 sm:px-4 text-white text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-semibold text-center`}>
-                {duration} | {price || '$30'}
+                {displayText || '$30'}
             </div>
         );
     };

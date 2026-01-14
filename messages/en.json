@@ -216,5 +216,136 @@
       "greenBar": "NVIDIA Self-paced Course",
       "purpleBar": "NVIDIA Instructor-Led Workshop"
     }
+  },
+  "computerVisionVideoAnalytics": {
+    "title": "Computer Vision and Video Analytics Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Computer Vision and Video Analytics Learning Path Webpage",
+    "courses": {
+      "buildingBrain10Minutes": "Building a Brain in 10 Minutes",
+      "fundamentalsDeepLearning": "Fundamentals of Deep Learning*",
+      "applicationsAIAnomalyDetection": "Applications of AI for Anomaly Detection*",
+      "applicationsAIPredictiveMaintenance": "Applications of AI for Predictive Maintenance*",
+      "modelParallelism": "Model Parallelism: Building and Deploying Large Neural Networks*",
+      "computerVisionIndustrialInspection": "Computer Vision for Industrial Inspection*",
+      "buildingRealTimeVideoAI": "Building Real-Time Video AI Applications",
+      "disasterRiskMonitoring": "Disaster Risk Monitoring Using Satellite Imagery*",
+      "gettingStartedJetsonNano": "Getting Started With AI on NVIDIA Jetson Nano*",
+      "buildHighPerformanceSensorProcessing": "Build High Performance and AI-Enabled Sensor Processing Applications"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "doubleAsterisk": "Digital Badge Available",
+      "braces": "Braces Indicate Alternate Paths",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  },
+  "dataScience": {
+    "title": "Data Science Certification",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Data Science Learning Path Webpage",
+    "certificationBadge": "NVIDIA Certified Professional Accelerated Data Science",
+    "sections": {
+      "professionalCertification": "Professional Certification",
+      "fundamentals": "Fundamentals",
+      "applicationSpecific": "Application Specific",
+      "certification": "Certification"
+    },
+    "courses": {
+      "fundamentalsAcceleratedDataScience": "Fundamentals of Accelerated Data Science*",
+      "enhancingDataScienceOutcomes": "Enhancing Data Science Outcomes With Efficient Workflow*",
+      "certifiedProfessionalAcceleratedDataScience": "NVIDIA-Certified Professional Accelerated Data Science**"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "doubleAsterisk": "Digital Badge Available",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop",
+      "blueBar": "NVIDIA Certification Exam"
+    }
+  },
+  "dataScienceTraining": {
+    "title": "Data Science Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Data Science Learning Path Webpage",
+    "sections": {
+      "acceleratedDataScienceFoundations": "Accelerated Data Science Foundations",
+      "dataPreparationForModelTraining": "Data Preparation for Model Training",
+      "bigDataProcessingPipelines": "Big Data Processing Pipelines",
+      "dataProcessingForAI": "Data Processing for AI",
+      "acceleratedDataScienceForCybersecurity": "Accelerated Data Science for Cybersecurity",
+      "acceleratedDataScienceForHealthcare": "Accelerated Data Science for Healthcare",
+      "acceleratedDataScienceForFinancialServices": "Accelerated Data Science for Financial Services"
+    },
+    "courses": {
+      "acceleratingEndToEndDataScienceWorkflows": "Accelerating End-to-End Data Science Workflows*",
+      "acceleratingClusteringAlgorithms": "Accelerating Clustering Algorithms to Achieve Highest Performance",
+      "analyzingVisualizingLargeData": "Analyzing and Visualizing Large Data Interactively using Accelerated Computing",
+      "gettingStartedDeepLearning": "Getting Started with Deep Learning*",
+      "bestPracticesFeatureEngineering": "Best Practices in Feature Engineering for Tabular Data with GPU Acceleration",
+      "accelerateDataScienceWorkflowsZeroCode": "Accelerate Data Science Workflows with Zero Code Changes",
+      "syntheticTabularDataGeneration": "Synthetic Tabular Data Generation Using Transformers",
+      "introductionMultiModalDataCuration": "Introduction to Multi-Modal Data Curation",
+      "accelerateDataAnalyticsGPUsRAPIDS": "Accelerate Data Analytics on GPUs With the RAPIDS Accelerator for Apache Spark",
+      "enhancingDataScienceOutcomes": "Enhancing Data Science Outcomes With Efficient Workflow*",
+      "introductionTransformerBasedNLP": "Introduction to Transformer-Based Natural Language Processing*",
+      "augmentLLMUsingRAG": "Augment Your LLM Using Retrieval Augmented Generation",
+      "structureFromChaosGraphRAG": "Structure From Chaos: Accelerate GraphRAG With cuGraph and NVIDIA NIM",
+      "useGPUsAccelerateVectorDatabases": "Use GPUs to Accelerate Vector Databases",
+      "exploringAdversarialMachineLearning": "Exploring Adversarial Machine Learning*",
+      "accelerateDataScienceLeverageFoundationModels": "Accelerate Data Science and Leverage Foundation Models in Digital Biology",
+      "acceleratingPortfolioOptimization": "Accelerating Portfolio Optimization"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
+  },
+  "deepLearningTraining": {
+    "title": "Deep Learning Training",
+    "subtitle": "For developers",
+    "linkToLearningPath": "Link to Deep Learning Webpage",
+    "sections": {
+      "introNeuralNetworks": "Introduction to Neural Networks and Special Architecture",
+      "aiMonitoring": "AI for Monitoring, Prediction, and Automation for Large Scale Systems",
+      "edgeAIApplications": "Edge AI Applications",
+      "aiSecurityFederatedML": "AI Security Engineering and Federated ML",
+      "aiLanguageSpeech": "AI-Powered Language and Speech Application",
+      "aiModelTrainingScale": "AI Model Training at Scale"
+    },
+    "courses": {
+      "buildingBrain10Minutes": "Building a Brain in 10 Minutes",
+      "fundamentalsDeepLearning": "Fundamentals of Deep Learning*",
+      "introGraphNeuralNetworks": "Introduction to Graph Neural Networks",
+      "applicationsAIAnomalyDetection": "Applications of AI for Anomaly Detection*",
+      "applicationsAIPredictiveMaintenance": "Applications of AI for Predictive Maintenance*",
+      "computerVisionIndustrialInspection": "Computer Vision for Industrial Inspection*",
+      "disasterRiskMonitoring": "Disaster Risk Monitoring Using Satellite Imagery*",
+      "applyingAIWeatherModels": "Applying AI Weather Models with NVIDIA Earth-2",
+      "buildingRealTimeVideoAI": "Building Real-Time Video AI Applications*",
+      "medicalAIDevelopmentMONAI": "Medical AI Development with MONAI: Interactive Annotation Using NVIDIA NIM Microservices",
+      "gettingStartedJetsonNano": "Getting Started With AI on NVIDIA Jetson Nano*",
+      "buildHighPerformanceSensorProcessing": "Build High Performance and AI-Enabled Sensor Processing Applications",
+      "exploringAdversarialML": "Exploring Adversarial Machine Learning",
+      "introFederatedLearning": "Introduction to Federated Learning with NVIDIA FLARE",
+      "decentralizedAI": "Decentralized AI at Scale with NVIDIA Flare",
+      "buildingAntiFraudApplications": "Building Deep Learning-Based Anti-Fraud Applications* (Chinese Only)",
+      "buildingTransformerNLP": "Building Transformer-Based Natural Language Processing Applications*",
+      "getStartedCustomASR": "Get Started with Highly Accurate Custom ASR for Speech AI",
+      "buildingConversationalAI": "Building Conversational AI Applications*",
+      "dataParallelism": "Data Parallelism: How to Train Deep Learning Models on Multiple GPUs*",
+      "modelParallelism": "Model Parallelism: Building and Deploying Large Neural Networks*"
+    },
+    "courseLegend": {
+      "title": "COURSE LEGEND",
+      "asterisk": "NVIDIA Certificate of Competency",
+      "greenBar": "NVIDIA Self-paced Course",
+      "purpleBar": "NVIDIA Instructor-Led Workshop"
+    }
   }
 }

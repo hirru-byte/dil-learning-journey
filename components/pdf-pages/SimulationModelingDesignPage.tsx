@@ -589,7 +589,7 @@ function ReactFlowContent() {
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
-                        containerHeight="h-[600px] sm:h-[800px] md:h-[800px] lg:h-[800px]"
+                        containerHeight="h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px]"
                         showControls={true}
                         alignToTopRight={true}
                     />

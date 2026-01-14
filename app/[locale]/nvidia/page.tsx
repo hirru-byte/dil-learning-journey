@@ -1,5 +1,5 @@
 import LanguageSwitcher from '@/components/LanguageSwitcher';
-import { TitlePage, QuickLinksPage, CertificationFrameworkPage, CertificationFrameworkPage2, AcceleratedComputingPage, AgenticAIPage, SimulationModelingDesignPage } from '@/components/pdf-pages';
+import { TitlePage, QuickLinksPage, CertificationFrameworkPage, CertificationFrameworkPage2, AcceleratedComputingPage, AgenticAIPage, SimulationModelingDesignPage, ComputerVisionVideoAnalyticsPage, DataSciencePage, DataScienceTrainingPage, DeepLearningTrainingPage } from '@/components/pdf-pages';
 
 export default function NvidiaPage() {
   return (
@@ -42,6 +42,26 @@ export default function NvidiaPage() {
       {/* PDF Page 7: Simulation Modeling and Design Page */}
       <div className="relative">
         <SimulationModelingDesignPage />
+      </div>
+
+      {/* PDF Page 8: Computer Vision and Video Analytics Training Page */}
+      <div className="relative">
+        <ComputerVisionVideoAnalyticsPage />
+      </div>
+
+      {/* PDF Page 9: Data Science Certification Page */}
+      <div className="relative">
+        <DataSciencePage />
+      </div>
+
+      {/* PDF Page 10: Data Science Training Page */}
+      <div className="relative">
+        <DataScienceTrainingPage />
+      </div>
+
+      {/* PDF Page 11: Deep Learning Training Page */}
+      <div className="relative">
+        <DeepLearningTrainingPage />
       </div>
     </div>
   );

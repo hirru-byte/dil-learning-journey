@@ -216,5 +216,136 @@
       "greenBar": "Khóa học Tự học NVIDIA",
       "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
     }
+  },
+  "computerVisionVideoAnalytics": {
+    "title": "Đào tạo Thị giác Máy tính và Phân tích Video",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Thị giác Máy tính và Phân tích Video",
+    "courses": {
+      "buildingBrain10Minutes": "Xây dựng Bộ não trong 10 Phút",
+      "fundamentalsDeepLearning": "Cơ bản về Học sâu*",
+      "applicationsAIAnomalyDetection": "Ứng dụng AI cho Phát hiện Bất thường*",
+      "applicationsAIPredictiveMaintenance": "Ứng dụng AI cho Bảo trì Dự đoán*",
+      "modelParallelism": "Song song hóa Mô hình: Xây dựng và Triển khai Mạng Thần kinh Lớn*",
+      "computerVisionIndustrialInspection": "Thị giác Máy tính cho Kiểm tra Công nghiệp*",
+      "buildingRealTimeVideoAI": "Xây dựng Ứng dụng Video AI Thời gian Thực",
+      "disasterRiskMonitoring": "Giám sát Rủi ro Thiên tai bằng Hình ảnh Vệ tinh*",
+      "gettingStartedJetsonNano": "Bắt đầu với AI trên NVIDIA Jetson Nano*",
+      "buildHighPerformanceSensorProcessing": "Xây dựng Ứng dụng Xử lý Cảm biến Hiệu suất Cao và Hỗ trợ AI"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "braces": "Dấu ngoặc nhọn Chỉ định Lộ trình Thay thế",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
+  },
+  "dataScience": {
+    "title": "Chứng nhận Khoa học Dữ liệu",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Khoa học Dữ liệu",
+    "certificationBadge": "NVIDIA Certified Professional Accelerated Data Science",
+    "sections": {
+      "professionalCertification": "Chứng nhận Chuyên nghiệp",
+      "fundamentals": "Cơ bản",
+      "applicationSpecific": "Ứng dụng Cụ thể",
+      "certification": "Chứng nhận"
+    },
+    "courses": {
+      "fundamentalsAcceleratedDataScience": "Cơ bản về Khoa học Dữ liệu Tăng tốc*",
+      "enhancingDataScienceOutcomes": "Nâng cao Kết quả Khoa học Dữ liệu với Quy trình Làm việc Hiệu quả*",
+      "certifiedProfessionalAcceleratedDataScience": "NVIDIA-Certified Professional Accelerated Data Science**"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+    }
+  },
+  "dataScienceTraining": {
+    "title": "Đào tạo Khoa học Dữ liệu",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Lộ trình Học tập Khoa học Dữ liệu",
+    "sections": {
+      "acceleratedDataScienceFoundations": "Nền tảng Khoa học Dữ liệu Tăng tốc",
+      "dataPreparationForModelTraining": "Chuẩn bị Dữ liệu cho Đào tạo Mô hình",
+      "bigDataProcessingPipelines": "Pipeline Xử lý Dữ liệu Lớn",
+      "dataProcessingForAI": "Xử lý Dữ liệu cho AI",
+      "acceleratedDataScienceForCybersecurity": "Khoa học Dữ liệu Tăng tốc cho An ninh Mạng",
+      "acceleratedDataScienceForHealthcare": "Khoa học Dữ liệu Tăng tốc cho Y tế",
+      "acceleratedDataScienceForFinancialServices": "Khoa học Dữ liệu Tăng tốc cho Dịch vụ Tài chính"
+    },
+    "courses": {
+      "acceleratingEndToEndDataScienceWorkflows": "Tăng tốc Quy trình Làm việc Khoa học Dữ liệu End-to-End*",
+      "acceleratingClusteringAlgorithms": "Tăng tốc Thuật toán Phân cụm để Đạt Hiệu suất Cao nhất",
+      "analyzingVisualizingLargeData": "Phân tích và Trực quan hóa Dữ liệu Lớn Tương tác bằng Máy tính Tăng tốc",
+      "gettingStartedDeepLearning": "Bắt đầu với Học sâu*",
+      "bestPracticesFeatureEngineering": "Thực hành Tốt nhất trong Kỹ thuật Tính năng cho Dữ liệu Dạng Bảng với Tăng tốc GPU",
+      "accelerateDataScienceWorkflowsZeroCode": "Tăng tốc Quy trình Làm việc Khoa học Dữ liệu với Không Thay đổi Mã",
+      "syntheticTabularDataGeneration": "Tạo Dữ liệu Dạng Bảng Tổng hợp bằng Transformers",
+      "introductionMultiModalDataCuration": "Giới thiệu về Quản lý Dữ liệu Đa Phương thức",
+      "accelerateDataAnalyticsGPUsRAPIDS": "Tăng tốc Phân tích Dữ liệu trên GPU với Bộ Tăng tốc RAPIDS cho Apache Spark",
+      "enhancingDataScienceOutcomes": "Nâng cao Kết quả Khoa học Dữ liệu với Quy trình Làm việc Hiệu quả*",
+      "introductionTransformerBasedNLP": "Giới thiệu về Xử lý Ngôn ngữ Tự nhiên Dựa trên Transformer*",
+      "augmentLLMUsingRAG": "Tăng cường LLM của Bạn bằng Retrieval Augmented Generation",
+      "structureFromChaosGraphRAG": "Cấu trúc Từ Hỗn loạn: Tăng tốc GraphRAG với cuGraph và NVIDIA NIM",
+      "useGPUsAccelerateVectorDatabases": "Sử dụng GPU để Tăng tốc Cơ sở Dữ liệu Vector",
+      "exploringAdversarialMachineLearning": "Khám phá Học máy Đối kháng*",
+      "accelerateDataScienceLeverageFoundationModels": "Tăng tốc Khoa học Dữ liệu và Tận dụng Mô hình Nền tảng trong Sinh học Kỹ thuật số",
+      "acceleratingPortfolioOptimization": "Tăng tốc Tối ưu hóa Danh mục Đầu tư"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
+  },
+  "deepLearningTraining": {
+    "title": "Đào tạo Học sâu",
+    "subtitle": "Dành cho nhà phát triển",
+    "linkToLearningPath": "Liên kết đến Trang Web Học sâu",
+    "sections": {
+      "introNeuralNetworks": "Giới thiệu về Mạng Thần kinh và Kiến trúc Đặc biệt",
+      "aiMonitoring": "AI cho Giám sát, Dự đoán và Tự động hóa cho Hệ thống Quy mô Lớn",
+      "edgeAIApplications": "Ứng dụng Edge AI",
+      "aiSecurityFederatedML": "Kỹ thuật Bảo mật AI và Học máy Liên kết",
+      "aiLanguageSpeech": "Ứng dụng Ngôn ngữ và Giọng nói Được Hỗ trợ bởi AI",
+      "aiModelTrainingScale": "Đào tạo Mô hình AI ở Quy mô"
+    },
+    "courses": {
+      "buildingBrain10Minutes": "Xây dựng Bộ não trong 10 Phút",
+      "fundamentalsDeepLearning": "Cơ bản về Học sâu*",
+      "introGraphNeuralNetworks": "Giới thiệu về Mạng Thần kinh Đồ thị",
+      "applicationsAIAnomalyDetection": "Ứng dụng AI cho Phát hiện Bất thường*",
+      "applicationsAIPredictiveMaintenance": "Ứng dụng AI cho Bảo trì Dự đoán*",
+      "computerVisionIndustrialInspection": "Thị giác Máy tính cho Kiểm tra Công nghiệp*",
+      "disasterRiskMonitoring": "Giám sát Rủi ro Thiên tai bằng Hình ảnh Vệ tinh*",
+      "applyingAIWeatherModels": "Áp dụng Mô hình Thời tiết AI với NVIDIA Earth-2",
+      "buildingRealTimeVideoAI": "Xây dựng Ứng dụng Video AI Thời gian Thực*",
+      "medicalAIDevelopmentMONAI": "Phát triển AI Y tế với MONAI: Chú thích Tương tác Sử dụng Microservices NVIDIA NIM",
+      "gettingStartedJetsonNano": "Bắt đầu với AI trên NVIDIA Jetson Nano*",
+      "buildHighPerformanceSensorProcessing": "Xây dựng Ứng dụng Xử lý Cảm biến Hiệu suất Cao và Hỗ trợ AI",
+      "exploringAdversarialML": "Khám phá Học máy Đối kháng",
+      "introFederatedLearning": "Giới thiệu về Học máy Liên kết với NVIDIA FLARE",
+      "decentralizedAI": "AI Phi tập trung ở Quy mô với NVIDIA Flare",
+      "buildingAntiFraudApplications": "Xây dựng Ứng dụng Chống Gian lận Dựa trên Học sâu* (Chỉ Tiếng Trung)",
+      "buildingTransformerNLP": "Xây dựng Ứng dụng Xử lý Ngôn ngữ Tự nhiên Dựa trên Transformer*",
+      "getStartedCustomASR": "Bắt đầu với ASR Tùy chỉnh Chính xác Cao cho Speech AI",
+      "buildingConversationalAI": "Xây dựng Ứng dụng AI Hội thoại*",
+      "dataParallelism": "Song song hóa Dữ liệu: Cách Đào tạo Mô hình Học sâu trên Nhiều GPU*",
+      "modelParallelism": "Song song hóa Mô hình: Xây dựng và Triển khai Mạng Thần kinh Lớn*"
+    },
+    "courseLegend": {
+      "title": "CHÚ GIẢI KHÓA HỌC",
+      "asterisk": "Chứng chỉ Năng lực NVIDIA",
+      "greenBar": "Khóa học Tự học NVIDIA",
+      "purpleBar": "Hội thảo Có Giảng viên NVIDIA"
+    }
   }
 }

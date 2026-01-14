@@ -6,6 +6,10 @@ export { default as CertificationFrameworkPage2 } from './CertificationFramework
 export { default as AcceleratedComputingPage } from './AcceleratedComputingPage';
 export { default as AgenticAIPage } from './AgenticAIPage';
 export { default as SimulationModelingDesignPage } from './SimulationModelingDesignPage';
+export { default as ComputerVisionVideoAnalyticsPage } from './ComputerVisionVideoAnalyticsPage';
+export { default as DataSciencePage } from './DataSciencePage';
+export { default as DataScienceTrainingPage } from './DataScienceTrainingPage';
+export { default as DeepLearningTrainingPage } from './DeepLearningTrainingPage';
 
 // Export shared ReactFlow component
 export { default as ReactFlowCurriculum } from './ReactFlowCurriculum';

@@ -23,9 +23,9 @@ export default function AcceleratedComputingPage() {
 
     // Define nodes based on the curriculum structure - arranged in rows
     // Node width: 350px, spacing: 20px
-    const nodeWidth = 350;
+    const nodeWidth = 500;
     const nodeSpacing = 50;
-    const titleHeight = 20;
+    const titleHeight = 50;
     const rowStartY = 20;
     const rowSpacing = 270; // Space between rows
 
@@ -270,7 +270,7 @@ export default function AcceleratedComputingPage() {
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
-                        containerHeight="h-[600px] sm:h-[800px] md:h-[800px] lg:h-[800px]"
+                        containerHeight="h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px]"
                         showControls={true}
                         alignToTopRight={false}
                     />

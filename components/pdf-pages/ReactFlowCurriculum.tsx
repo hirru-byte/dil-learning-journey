@@ -30,6 +30,7 @@ export interface CourseNodeData extends Record<string, unknown> {
     price?: string;
     type?: 'green' | 'purple' | 'blue' | 'split';
     hasAsterisk?: boolean;
+    hasDoubleAsterisk?: boolean;
     link?: string;
     greenPrice?: string;
     purplePrice?: string;
@@ -76,6 +77,7 @@ function CourseNode({ data }: CourseNodeProps) {
                 price={data.price}
                 type={data.type}
                 hasAsterisk={data.hasAsterisk}
+                hasDoubleAsterisk={data.hasDoubleAsterisk}
                 link={data.link}
                 greenPrice={data.greenPrice}
                 purplePrice={data.purplePrice}

@@ -5,134 +5,95 @@ import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
 
-export default function AgenticAIPage() {
-    const t = useTranslations('agenticAI');
+export default function DataSciencePage() {
+    const t = useTranslations('dataScience');
 
     // Placeholder links - you can update these later
     const courseLinks: Record<string, string> = {
-        'buildingRAGAgents': '#',
-        'evaluatingRAG': '#',
-        'buildingAgenticAI': '#',
-        'addingNewKnowledge': '#',
-        'introductionToDeployingRAG': '#',
-        'examAgenticAI': '#',
+        'fundamentalsAcceleratedDataScience': '#',
+        'enhancingDataScienceOutcomes': '#',
+        'certifiedProfessionalAcceleratedDataScience': '#',
     };
 
-    // Define nodes based on the curriculum structure - arranged in rows
+    // Define nodes based on the curriculum structure - horizontal flow
     const nodeWidth = 500;
     const nodeSpacing = 50;
     const titleHeight = 50;
     const rowStartY = 20;
-    const rowSpacing = 270; // Space between rows
 
     const initialNodes: Node[] = useMemo(() => [
-        // Fundamentals Section - Row 1
+        // Professional Certification Section - Row 1
+        {
+            id: 'title-professional-certification',
+            type: 'title',
+            position: { x: 50, y: rowStartY },
+            data: { label: t('sections.professionalCertification') },
+            style: { background: 'transparent', border: 'none' },
+        },
+        // Stage 1: Fundamentals
         {
             id: 'title-fundamentals',
             type: 'title',
-            position: { x: 50, y: rowStartY },
+            position: { x: 50, y: rowStartY + titleHeight },
             data: { label: t('sections.fundamentals') },
             style: { background: 'transparent', border: 'none' },
         },
         {
-            id: 'buildingRAGAgents',
+            id: 'fundamentalsAcceleratedDataScience',
             type: 'course',
-            position: { x: 50, y: rowStartY + titleHeight },
+            position: { x: 50, y: rowStartY + titleHeight * 2 },
             data: {
-                title: t('courses.buildingRAGAgents'),
+                title: t('courses.fundamentalsAcceleratedDataScience'),
                 duration: '8 Hours',
                 type: 'split',
                 hasAsterisk: true,
                 greenPrice: '$90',
                 purplePrice: '$500',
-                link: courseLinks.buildingRAGAgents,
+                link: courseLinks.fundamentalsAcceleratedDataScience,
             },
             style: { width: nodeWidth },
         },
-        // Generative AI and Multimodal Section - Row 2
+        // Stage 2: Application Specific
         {
-            id: 'title-generativeAI',
+            id: 'title-application-specific',
             type: 'title',
-            position: { x: 50, y: rowStartY + rowSpacing },
-            data: { label: t('sections.generativeAIAndMultimodal') },
+            position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
+            data: { label: t('sections.applicationSpecific') },
             style: { background: 'transparent', border: 'none' },
         },
         {
-            id: 'evaluatingRAG',
+            id: 'enhancingDataScienceOutcomes',
             type: 'course',
-            position: { x: 50, y: rowStartY + rowSpacing + titleHeight },
+            position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + titleHeight * 2 },
             data: {
-                title: t('courses.evaluatingRAG'),
-                duration: '3 Hours',
-                price: '$30',
-                type: 'green',
-                link: courseLinks.evaluatingRAG,
-            },
-            style: { width: nodeWidth },
-        },
-        {
-            id: 'buildingAgenticAI',
-            type: 'course',
-            position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
-            data: {
-                title: t('courses.buildingAgenticAI'),
-                duration: '8 Hours',
-                type: 'split',
-                hasAsterisk: true,
-                greenPrice: '$90',
-                purplePrice: '$500',
-                link: courseLinks.buildingAgenticAI,
-            },
-            style: { width: nodeWidth },
-        },
-        {
-            id: 'addingNewKnowledge',
-            type: 'course',
-            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing + titleHeight },
-            data: {
-                title: t('courses.addingNewKnowledge'),
+                title: t('courses.enhancingDataScienceOutcomes'),
                 duration: '8 Hours',
                 price: '$500',
                 type: 'purple',
-                link: courseLinks.addingNewKnowledge,
-            },
-            style: { width: nodeWidth },
-        },
-        {
-            id: 'introductionToDeployingRAG',
-            type: 'course',
-            position: { x: 50 + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing + titleHeight },
-            data: {
-                title: t('courses.introductionToDeployingRAG'),
-                duration: '4 Hours',
-                type: 'split',
                 hasAsterisk: true,
-                greenPrice: '$90',
-                purplePrice: '$500',
-                purpleDuration: '8 Hours',
-                link: courseLinks.introductionToDeployingRAG,
+                link: courseLinks.enhancingDataScienceOutcomes,
             },
             style: { width: nodeWidth },
         },
-        // Certification Section - Row 3
+        // Stage 3: Certification
         {
             id: 'title-certification',
             type: 'title',
-            position: { x: 50, y: rowStartY + rowSpacing * 2 },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
             data: { label: t('sections.certification') },
             style: { background: 'transparent', border: 'none' },
         },
         {
-            id: 'examAgenticAI',
+            id: 'certifiedProfessionalAcceleratedDataScience',
             type: 'course',
-            position: { x: 50, y: rowStartY + rowSpacing * 2 + titleHeight },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight * 2 },
             data: {
-                title: t('courses.examAgenticAI'),
+                title: t('courses.certifiedProfessionalAcceleratedDataScience'),
                 duration: '2 Hours',
                 price: '$200',
                 type: 'blue',
                 hasDoubleAsterisk: true,
-                link: courseLinks.examAgenticAI,
+                link: courseLinks.certifiedProfessionalAcceleratedDataScience,
             },
             style: { width: nodeWidth },
         },
@@ -140,11 +101,10 @@ export default function AgenticAIPage() {
 
     // Define edges (arrows) to show flow - horizontal connections
     const initialEdges: Edge[] = useMemo(() => [
-        // Flow from Fundamentals to Generative AI section
         {
             id: 'e1',
-            source: 'buildingRAGAgents',
-            target: 'evaluatingRAG',
+            source: 'fundamentalsAcceleratedDataScience',
+            target: 'enhancingDataScienceOutcomes',
             type: 'smoothstep',
             animated: false,
             markerEnd: {
@@ -153,48 +113,10 @@ export default function AgenticAIPage() {
             },
             style: { stroke: '#9ca3af', strokeWidth: 2 },
         },
-        // Flow within Generative AI section
         {
             id: 'e2',
-            source: 'evaluatingRAG',
-            target: 'buildingAgenticAI',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: {
-                type: 'arrowclosed',
-                color: '#9ca3af',
-            },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
-        {
-            id: 'e3',
-            source: 'buildingAgenticAI',
-            target: 'addingNewKnowledge',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: {
-                type: 'arrowclosed',
-                color: '#9ca3af',
-            },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
-        {
-            id: 'e4',
-            source: 'addingNewKnowledge',
-            target: 'introductionToDeployingRAG',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: {
-                type: 'arrowclosed',
-                color: '#9ca3af',
-            },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
-        // Flow from Generative AI to Certification section
-        {
-            id: 'e5',
-            source: 'introductionToDeployingRAG',
-            target: 'examAgenticAI',
+            source: 'enhancingDataScienceOutcomes',
+            target: 'certifiedProfessionalAcceleratedDataScience',
             type: 'smoothstep',
             animated: false,
             markerEnd: {

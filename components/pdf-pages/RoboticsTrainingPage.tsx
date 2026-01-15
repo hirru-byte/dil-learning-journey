@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function RoboticsTrainingPage() {
     const t = useTranslations('roboticsTraining');
@@ -476,7 +477,7 @@ export default function RoboticsTrainingPage() {
                         </p>
                     </div>
                     <a
-                        href="#"
+                        href="https://www.nvidia.com/en-us/learn/learning-path/robotics/"
                         className="text-green-600 underline hover:text-green-700 text-xs sm:text-sm md:text-base whitespace-nowrap"
                     >
                         {t('linkToLearningPath')}
@@ -484,7 +485,7 @@ export default function RoboticsTrainingPage() {
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
@@ -515,9 +516,13 @@ export default function RoboticsTrainingPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

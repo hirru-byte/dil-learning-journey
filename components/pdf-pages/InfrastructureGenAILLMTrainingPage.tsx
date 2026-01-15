@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function InfrastructureGenAILLMTrainingPage() {
     const t = useTranslations('infrastructureGenAILLMTraining');
@@ -37,20 +38,12 @@ export default function InfrastructureGenAILLMTrainingPage() {
     const nodeSpacing = 50;
     const titleHeight = 50;
     const rowStartY = 20;
-    const rowSpacing = 270; // Space between rows
+    const rowSpacing = 300; // Space between rows
     const courseHeight = 220; // Approximate height of a course card
 
     const initialNodes: Node[] = useMemo(() => {
         const startX = 50;
         const overviewX = startX;
-        const rightColumnX = startX + nodeWidth + nodeSpacing * 3; // More spacing for right column
-        
-        // Calculate where Overview section ends (after 8 courses + title)
-        const overviewEndY = rowStartY + titleHeight + (rowSpacing * 7) + courseHeight;
-        
-        // Second column X position (for NVIDIA AI Enterprise and NVIDIA DGX side by side)
-        const secondColX = overviewX;
-        const thirdColX = overviewX + nodeWidth + nodeSpacing;
 
         return [
             // Section 1: Overview (Left Column) - Vertical flow
@@ -77,7 +70,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'aiInfrastructureOperationsFundamentals',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: overviewX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.aiInfrastructureOperationsFundamentals'),
                     duration: '7 Hours',
@@ -90,7 +83,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'associateAIInfrastructureOperationsCertification',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.associateAIInfrastructureOperationsCertification'),
                     duration: '1 Hour',
@@ -104,7 +97,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaAIInfrastructurePublicTraining',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: overviewX, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIInfrastructurePublicTraining'),
                     duration: '28 Hours',
@@ -117,7 +110,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'professionalAIInfrastructureCertification',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: overviewX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.professionalAIInfrastructureCertification'),
                     duration: '2 Hours',
@@ -131,7 +124,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaAIOperationsPublicTraining',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing * 5 + titleHeight },
+                position: { x: overviewX, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIOperationsPublicTraining'),
                     duration: '24 Hours',
@@ -144,7 +137,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'professionalAIOperationsCertification',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing * 6 + titleHeight },
+                position: { x: overviewX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.professionalAIOperationsCertification'),
                     duration: '2 Hours',
@@ -158,7 +151,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaAIInfrastructureOperationsPublicTraining',
                 type: 'course',
-                position: { x: overviewX, y: rowStartY + rowSpacing * 7 + titleHeight },
+                position: { x: overviewX, y: rowStartY + rowSpacing * 3 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIInfrastructureOperationsPublicTraining'),
                     duration: '44 Hours',
@@ -173,14 +166,14 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'title-introduction-networking',
                 type: 'title',
-                position: { x: rightColumnX, y: rowStartY },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 3, y: rowStartY },
                 data: { label: t('sections.introductionNetworking') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'introductionNetworking',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + titleHeight },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.introductionNetworking'),
                     duration: '1 Hour',
@@ -193,7 +186,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'infiniBandEssentials',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.infiniBandEssentials'),
                     duration: '1.5 Hours',
@@ -208,14 +201,14 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'title-additional-recommended-training',
                 type: 'title',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing * 2 + titleHeight + 20 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing },
                 data: { label: t('sections.additionalRecommendedTraining') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'baseCommandManagerAdministration',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing * 2 + titleHeight * 2 + 20 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.baseCommandManagerAdministration'),
                     duration: '3 Hours',
@@ -228,7 +221,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'dataCenterManagementNVIDIAUFM',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing * 3 + titleHeight * 2 + 20 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.dataCenterManagementNVIDIAUFM'),
                     duration: '3 Hours',
@@ -243,14 +236,14 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'title-nvidia-ai-enterprise',
                 type: 'title',
-                position: { x: secondColX, y: overviewEndY + 50 },
+                position: { x: overviewX, y: rowStartY + rowSpacing * 4 },
                 data: { label: t('sections.nvidiaAIEnterprise') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaAIEnterpriseAdministrationVMwarevSphere',
                 type: 'course',
-                position: { x: secondColX, y: overviewEndY + 50 + titleHeight },
+                position: { x: overviewX, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseAdministrationVMwarevSphere'),
                     duration: '8 Hours',
@@ -263,7 +256,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaAIEnterpriseForAzureProfessionals',
                 type: 'course',
-                position: { x: secondColX, y: overviewEndY + 50 + titleHeight + rowSpacing },
+                position: { x: overviewX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseForAzureProfessionals'),
                     duration: '9 Hours',
@@ -276,7 +269,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaAIEnterpriseAdministratorPrivateCustomizedTraining',
                 type: 'course',
-                position: { x: secondColX, y: overviewEndY + 50 + titleHeight + rowSpacing * 2 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseAdministratorPrivateCustomizedTraining'),
                     duration: '12 Hours',
@@ -289,7 +282,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'rapidsAcceleratorApacheSpark',
                 type: 'course',
-                position: { x: secondColX, y: overviewEndY + 50 + titleHeight + rowSpacing * 3 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.rapidsAcceleratorApacheSpark'),
                     duration: '2 Hours',
@@ -304,14 +297,14 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'title-nvidia-dgx',
                 type: 'title',
-                position: { x: thirdColX, y: overviewEndY + 50 },
+                position: { x: overviewX, y: rowStartY + rowSpacing * 5 },
                 data: { label: t('sections.nvidiaDGX') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaDGXSystemAdministrationPublicWorkshop',
                 type: 'course',
-                position: { x: thirdColX, y: overviewEndY + 50 + titleHeight },
+                position: { x: overviewX, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXSystemAdministrationPublicWorkshop'),
                     duration: '12 Hours',
@@ -324,7 +317,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaDGXSystemAdministrationPrivateWorkshop',
                 type: 'course',
-                position: { x: thirdColX, y: overviewEndY + 50 + titleHeight + rowSpacing },
+                position: { x: overviewX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXSystemAdministrationPrivateWorkshop'),
                     duration: '12 Hours',
@@ -337,7 +330,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaDGXBasePODAdministrationPrivateWorkshop',
                 type: 'course',
-                position: { x: thirdColX, y: overviewEndY + 50 + titleHeight + rowSpacing * 2 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXBasePODAdministrationPrivateWorkshop'),
                     duration: '12 Hours',
@@ -350,7 +343,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
             {
                 id: 'nvidiaDGXSuperPODAdministrationPrivateWorkshop',
                 type: 'course',
-                position: { x: thirdColX, y: overviewEndY + 50 + titleHeight + rowSpacing * 3 },
+                position: { x: overviewX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXSuperPODAdministrationPrivateWorkshop'),
                     duration: '12 Hours',
@@ -436,11 +429,11 @@ export default function InfrastructureGenAILLMTrainingPage() {
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
-                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[1200px]"
+                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[900px]"
                         showControls={true}
                         alignToTopRight={false}
                     />
@@ -480,9 +473,13 @@ export default function InfrastructureGenAILLMTrainingPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

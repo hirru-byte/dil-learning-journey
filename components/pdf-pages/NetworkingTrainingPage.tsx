@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function NetworkingTrainingPage() {
     const t = useTranslations('networkingTraining');
@@ -39,22 +40,21 @@ export default function NetworkingTrainingPage() {
 
     const initialNodes: Node[] = useMemo(() => {
         const startX = 50;
-        const leftColumnX = startX;
-        const rightColumnX = startX + nodeWidth + nodeSpacing * 3;
+
 
         return [
             // Section 1: Overview (Top Left)
             {
                 id: 'title-overview',
                 type: 'title',
-                position: { x: leftColumnX, y: rowStartY },
+                position: { x: startX, y: rowStartY },
                 data: { label: t('sections.overview') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'introductionNetworking',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + titleHeight },
+                position: { x: startX, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.introductionNetworking'),
                     duration: '1 Hour',
@@ -67,7 +67,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'aiForAllBasicsGenAIPractice',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.aiForAllBasicsGenAIPractice'),
                     duration: '2 Hours',
@@ -82,14 +82,14 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'title-nvidia-cumulus',
                 type: 'title',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 2 + titleHeight + 50 },
+                position: { x: startX, y: rowStartY + rowSpacing },
                 data: { label: t('sections.nvidiaCumulus') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaCumulusLinuxPublicBootCamp',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 2 + titleHeight * 2 + 50 },
+                position: { x: startX, y: rowStartY + titleHeight + rowSpacing },
                 data: {
                     title: t('courses.nvidiaCumulusLinuxPublicBootCamp'),
                     duration: '12 Hours',
@@ -102,7 +102,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'nvidiaCumulusLinuxPrivateCustomizedWorkshop',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 3 + titleHeight * 2 + 50 },
+                position: { x: startX, y: rowStartY + titleHeight + rowSpacing * 2 },
                 data: {
                     title: t('courses.nvidiaCumulusLinuxPrivateCustomizedWorkshop'),
                     duration: '20 Hours',
@@ -117,14 +117,14 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'title-ai-networking',
                 type: 'title',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 4 + titleHeight * 2 + 100 },
+                position: { x: startX, y: rowStartY + rowSpacing * 3 },
                 data: { label: t('sections.aiNetworking') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'dataCenterManagementNVIDIAUFM',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 4 + titleHeight * 3 + 100 },
+                position: { x: startX, y: rowStartY + titleHeight + rowSpacing * 3 },
                 data: {
                     title: t('courses.dataCenterManagementNVIDIAUFM'),
                     duration: '3 Hours',
@@ -137,7 +137,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'blueFieldDPUAdministration',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 5 + titleHeight * 3 + 100 },
+                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight + rowSpacing * 3 },
                 data: {
                     title: t('courses.blueFieldDPUAdministration'),
                     duration: '3 Hours',
@@ -150,7 +150,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'fundamentalsRDMAProgramming',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 6 + titleHeight * 3 + 100 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight + rowSpacing * 3 },
                 data: {
                     title: t('courses.fundamentalsRDMAProgramming'),
                     duration: '4 Hours',
@@ -163,7 +163,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'nvidiaCumulusLinuxPublicBootCamp-ai-networking',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 7 + titleHeight * 3 + 100 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight + rowSpacing * 4 },
                 data: {
                     title: t('courses.nvidiaCumulusLinuxPublicBootCamp'),
                     duration: '12 Hours',
@@ -176,7 +176,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'infiniBandProfessional',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 8 + titleHeight * 3 + 100 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight + rowSpacing * 4 },
                 data: {
                     title: t('courses.infiniBandProfessional'),
                     duration: '6 Hours',
@@ -189,7 +189,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'spectrumXNetworkingPlatformAdministrationPublicTraining',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 9 + titleHeight * 3 + 100 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight + rowSpacing * 4 },
                 data: {
                     title: t('courses.spectrumXNetworkingPlatformAdministrationPublicTraining'),
                     duration: '12 Hours',
@@ -202,7 +202,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'aiNetworkingProfessionalCertification',
                 type: 'course',
-                position: { x: leftColumnX, y: rowStartY + rowSpacing * 10 + titleHeight * 3 + 100 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight + rowSpacing * 4 },
                 data: {
                     title: t('courses.aiNetworkingProfessionalCertification'),
                     duration: '2 Hours',
@@ -218,14 +218,14 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'title-other',
                 type: 'title',
-                position: { x: rightColumnX, y: rowStartY },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY },
                 data: { label: t('sections.other') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'networkAdministrationNVIDIAOnyxSwitchSystem',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.networkAdministrationNVIDIAOnyxSwitchSystem'),
                     duration: '3 Hours',
@@ -238,7 +238,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'rdmaOverConvergedEthernet',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.rdmaOverConvergedEthernet'),
                     duration: '10 Hours',
@@ -253,7 +253,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'nvidiaAIInfrastructurePublicTraining',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing * 2 + titleHeight + 50 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIInfrastructurePublicTraining'),
                     duration: '28 Hours',
@@ -266,7 +266,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'professionalAIInfrastructureCertification',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing * 3 + titleHeight + 50 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.professionalAIInfrastructureCertification'),
                     duration: '2 Hours',
@@ -282,7 +282,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'nvidiaAIOperationsPublicTraining',
                 type: 'course',
-                position: { x: rightColumnX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight + 50 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight + rowSpacing },
                 data: {
                     title: t('courses.nvidiaAIOperationsPublicTraining'),
                     duration: '24 Hours',
@@ -295,7 +295,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'professionalAIOperationsCertification',
                 type: 'course',
-                position: { x: rightColumnX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 3 + titleHeight + 50 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight + rowSpacing },
                 data: {
                     title: t('courses.professionalAIOperationsCertification'),
                     duration: '2 Hours',
@@ -311,7 +311,7 @@ export default function NetworkingTrainingPage() {
             {
                 id: 'nvidiaAIInfrastructureOperationsPublicTraining',
                 type: 'course',
-                position: { x: rightColumnX, y: rowStartY + rowSpacing * 4 + titleHeight + 50 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight + rowSpacing * 2 },
                 data: {
                     title: t('courses.nvidiaAIInfrastructureOperationsPublicTraining'),
                     duration: '44 Hours',
@@ -454,11 +454,11 @@ export default function NetworkingTrainingPage() {
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
-                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[1400px]"
+                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[900px]"
                         showControls={true}
                         alignToTopRight={false}
                     />
@@ -498,9 +498,13 @@ export default function NetworkingTrainingPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

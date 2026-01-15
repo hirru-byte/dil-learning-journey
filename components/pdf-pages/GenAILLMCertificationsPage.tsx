@@ -396,7 +396,7 @@ export default function GenAILLMCertificationsPage() {
                             {t('subtitle')}
                         </p>
                     </div>
-                    <div className="flex flex-col items-start sm:items-end gap-4 w-full sm:w-auto">
+                    <div className="flex items-start gap-4 w-full sm:w-auto ">
                         <a
                             href="https://www.nvidia.com/en-us/learn/learning-path/accelerated-data-science/"
                             className="text-green-600 underline hover:text-green-700 text-xs sm:text-sm md:text-base whitespace-nowrap"

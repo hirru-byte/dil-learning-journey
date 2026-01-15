@@ -4,6 +4,11 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
+import AIAOA from '@/public/nvidia/AIAO-Associate.svg';
+import ANP from '@/public/nvidia/AN-Professional.svg';
+import AOP from '@/public/nvidia/AO-Professional.svg';
+import AIP from '@/public/nvidia/AI-Professional.svg';
 
 export default function AIInfrastructureCertificationsPage() {
     const t = useTranslations('aiInfrastructureCertifications');
@@ -28,14 +33,13 @@ export default function AIInfrastructureCertificationsPage() {
     // Define nodes based on the curriculum structure
     const nodeWidth = 500;
     const nodeSpacing = 50;
-    const titleHeight = 50;
+    const titleHeight = 70;
     const rowStartY = 20;
     const rowSpacing = 270; // Space between rows
     const sectionSpacing = 100; // Space between sections
 
     const initialNodes: Node[] = useMemo(() => {
         const startX = 50;
-        const professionalX = startX + nodeWidth * 2 + nodeSpacing * 1 + sectionSpacing;
 
         return [
             // Associate Certification Section
@@ -43,7 +47,7 @@ export default function AIInfrastructureCertificationsPage() {
                 id: 'title-associate',
                 type: 'title',
                 position: { x: startX, y: rowStartY },
-                data: { label: t('sections.associateCertification') },
+                data: { label: t('sections.associateCertification'), textSize: 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl' },
                 style: { background: 'transparent', border: 'none' },
             },
             {
@@ -85,8 +89,8 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'title-professional',
                 type: 'title',
-                position: { x: professionalX, y: rowStartY },
-                data: { label: t('sections.professionalCertifications') },
+                position: { x: 50, y: rowStartY + nodeWidth },
+                data: { label: t('sections.professionalCertifications'), textSize: 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl' },
                 style: { background: 'transparent', border: 'none' },
             },
 
@@ -94,14 +98,14 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'title-ai-networking',
                 type: 'title',
-                position: { x: professionalX, y: rowStartY + titleHeight },
+                position: { x: 50, y: rowStartY + titleHeight + nodeWidth },
                 data: { label: t('sections.aiNetworking') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'dataCenterManagementNVIDIAUFM',
                 type: 'course',
-                position: { x: professionalX, y: rowStartY + titleHeight * 2 },
+                position: { x: 50, y: rowStartY + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.dataCenterManagementNVIDIAUFM'),
                     duration: '3 Hours',
@@ -114,7 +118,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'blueFieldDPUAdministration',
                 type: 'course',
-                position: { x: professionalX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight * 2 },
+                position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.blueFieldDPUAdministration'),
                     duration: '3 Hours',
@@ -127,7 +131,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'fundamentalsRDMAProgramming',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight * 2 },
+                position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.fundamentalsRDMAProgramming'),
                     duration: '4 Hours',
@@ -140,7 +144,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'nvidiaCumulusLinuxPublicBootCamp',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.nvidiaCumulusLinuxPublicBootCamp'),
                     duration: '12 Hours',
@@ -153,7 +157,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'infiniBandProfessional',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight * 2 },
+                position: { x: 50 + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.infiniBandProfessional'),
                     duration: '6 Hours',
@@ -166,7 +170,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'spectrumXNetworkingPlatformAdministrationPublicTraining',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight * 2 },
+                position: { x: 50 + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.spectrumXNetworkingPlatformAdministrationPublicTraining'),
                     duration: '12 Hours',
@@ -179,7 +183,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'professionalAINetworkingCertification',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight * 2 },
+                position: { x: 50 + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing + titleHeight * 2 + nodeWidth },
                 data: {
                     title: t('courses.professionalAINetworkingCertification'),
                     duration: '2 Hours',
@@ -195,14 +199,14 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'title-ai-infrastructure',
                 type: 'title',
-                position: { x: professionalX, y: rowStartY + rowSpacing },
+                position: { x: 50, y: rowStartY + rowSpacing * 4 },
                 data: { label: t('sections.aiInfrastructure') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaAIInfrastructurePublicTraining',
                 type: 'course',
-                position: { x: professionalX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: 50, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIInfrastructurePublicTraining'),
                     duration: '28 Hours',
@@ -215,7 +219,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'professionalAIInfrastructureCertification',
                 type: 'course',
-                position: { x: professionalX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.professionalAIInfrastructureCertification'),
                     duration: '2 Hours',
@@ -231,14 +235,14 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'title-ai-operations',
                 type: 'title',
-                position: { x: professionalX, y: rowStartY + rowSpacing * 2 },
+                position: { x: 50, y: rowStartY + rowSpacing * 5 + 20 },
                 data: { label: t('sections.aiOperations') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaAIOperationsPublicTraining',
                 type: 'course',
-                position: { x: professionalX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: 50, y: rowStartY + rowSpacing * 5 + titleHeight + 20 },
                 data: {
                     title: t('courses.nvidiaAIOperationsPublicTraining'),
                     duration: '24 Hours',
@@ -251,7 +255,7 @@ export default function AIInfrastructureCertificationsPage() {
             {
                 id: 'professionalAIOperationsCertification',
                 type: 'course',
-                position: { x: professionalX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 5 + titleHeight + 20 },
                 data: {
                     title: t('courses.professionalAIOperationsCertification'),
                     duration: '2 Hours',
@@ -385,43 +389,35 @@ export default function AIInfrastructureCertificationsPage() {
                     </div>
                     <div className="flex flex-wrap gap-2 sm:gap-4">
                         {/* Certification Badges */}
-                        <div className="bg-gray-200 border-2 border-gray-300 rounded-lg p-2 sm:p-3 text-center min-w-[150px] sm:min-w-[180px]">
-                            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-600 rounded-full mx-auto mb-2 flex items-center justify-center">
-                                <span className="text-white text-[10px] sm:text-xs font-bold">N</span>
-                            </div>
-                            <p className="text-[10px] sm:text-xs font-semibold text-black leading-tight">
-                                {t('certificationBadges.associate')}
-                            </p>
-                        </div>
-                        <div className="bg-gray-200 border-2 border-gray-300 rounded-lg p-2 sm:p-3 text-center min-w-[150px] sm:min-w-[180px]">
-                            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-600 rounded-full mx-auto mb-2 flex items-center justify-center">
-                                <span className="text-white text-[10px] sm:text-xs font-bold">N</span>
-                            </div>
-                            <p className="text-[10px] sm:text-xs font-semibold text-black leading-tight">
-                                {t('certificationBadges.professionalNetworking')}
-                            </p>
-                        </div>
-                        <div className="bg-gray-200 border-2 border-gray-300 rounded-lg p-2 sm:p-3 text-center min-w-[150px] sm:min-w-[180px]">
-                            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-600 rounded-full mx-auto mb-2 flex items-center justify-center">
-                                <span className="text-white text-[10px] sm:text-xs font-bold">N</span>
-                            </div>
-                            <p className="text-[10px] sm:text-xs font-semibold text-black leading-tight">
-                                {t('certificationBadges.professionalOperations')}
-                            </p>
-                        </div>
-                        <div className="bg-gray-200 border-2 border-gray-300 rounded-lg p-2 sm:p-3 text-center min-w-[150px] sm:min-w-[180px]">
-                            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-600 rounded-full mx-auto mb-2 flex items-center justify-center">
-                                <span className="text-white text-[10px] sm:text-xs font-bold">N</span>
-                            </div>
-                            <p className="text-[10px] sm:text-xs font-semibold text-black leading-tight">
-                                {t('certificationBadges.professionalInfrastructure')}
-                            </p>
-                        </div>
+                        <Image
+                            src={AIAOA.src}
+                            alt="Certification Badge"
+                            width={200}
+                            height={200}
+                        />
+                        <Image
+                            src={ANP.src}
+                            alt="Certification Badge"
+                            width={200}
+                            height={200}
+                        />
+                        <Image
+                            src={AOP.src}
+                            alt="Certification Badge"
+                            width={200}
+                            height={200}
+                        />
+                        <Image
+                            src={AIP.src}
+                            alt="Certification Badge"
+                            width={200}
+                            height={200}
+                        />
                     </div>
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
@@ -460,9 +456,13 @@ export default function AIInfrastructureCertificationsPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

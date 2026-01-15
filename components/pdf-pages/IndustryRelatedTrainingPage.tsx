@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function IndustryRelatedTrainingPage() {
     const t = useTranslations('industryRelatedTraining');
@@ -88,7 +89,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'title-healthcare-life-sciences',
                 type: 'title',
-                position: { x: startX, y: rowStartY + rowSpacing * 2 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY },
                 data: { label: t('sections.healthcareAndLifeSciences') },
                 style: { background: 'transparent', border: 'none' },
             },
@@ -96,7 +97,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'accelerateDataScienceLeverageFoundationModelsDigitalBiology',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.accelerateDataScienceLeverageFoundationModelsDigitalBiology'),
                     duration: '2 Hours',
@@ -109,7 +110,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'streamliningDrugDiscoveryBioNeMo',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.streamliningDrugDiscoveryBioNeMo'),
                     duration: '2 Hours',
@@ -123,7 +124,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'gettingStartedNVIDIAToolsGenerativeAIDigitalHealth',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.gettingStartedNVIDIAToolsGenerativeAIDigitalHealth'),
                     duration: '2 Hours',
@@ -136,7 +137,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'medicalAIDevelopmentMONAI',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.medicalAIDevelopmentMONAI'),
                     duration: '2 Hours',
@@ -150,7 +151,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'introductionFederatedLearningNVIDIAFLARE',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.introductionFederatedLearningNVIDIAFLARE'),
                     duration: '2 Hours',
@@ -163,7 +164,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'decentralizedAIScaleNVIDIAFlare',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.decentralizedAIScaleNVIDIAFlare'),
                     duration: '4 Hours',
@@ -178,14 +179,14 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'title-financial-services',
                 type: 'title',
-                position: { x: startX, y: rowStartY + rowSpacing * 5 },
+                position: { x: startX, y: rowStartY + rowSpacing * 3 },
                 data: { label: t('sections.financialServices') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'acceleratingPortfolioOptimization',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 5 + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing * 3 + titleHeight },
                 data: {
                     title: t('courses.acceleratingPortfolioOptimization'),
                     duration: '2 Hours',
@@ -198,7 +199,7 @@ export default function IndustryRelatedTrainingPage() {
             {
                 id: 'applicationsAIAnomalyDetection',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 6 + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.applicationsAIAnomalyDetection'),
                     duration: '8 Hours',
@@ -258,11 +259,11 @@ export default function IndustryRelatedTrainingPage() {
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
-                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[2000px]"
+                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[900px]"
                         showControls={true}
                         alignToTopRight={false}
                     />
@@ -298,9 +299,13 @@ export default function IndustryRelatedTrainingPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

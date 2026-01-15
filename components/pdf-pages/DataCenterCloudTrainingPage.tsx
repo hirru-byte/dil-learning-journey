@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function DataCenterCloudTrainingPage() {
     const t = useTranslations('dataCenterCloudTraining');
@@ -67,7 +68,7 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'dataCenterManagementNVIDIAUFM',
                 type: 'course',
-                position: { x: leftStartX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
+                position: { x: leftStartX, y: rowStartY + titleHeight + rowSpacing },
                 data: {
                     title: t('courses.dataCenterManagementNVIDIAUFM'),
                     duration: '3 Hours',
@@ -80,7 +81,7 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'aiInfrastructureOperationsFundamentals',
                 type: 'course',
-                position: { x: leftStartX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
+                position: { x: leftStartX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.aiInfrastructureOperationsFundamentals'),
                     duration: '7 Hours',
@@ -93,7 +94,7 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'associateAIInfrastructureOperationsCertification',
                 type: 'course',
-                position: { x: leftStartX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
+                position: { x: leftStartX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.associateAIInfrastructureOperationsCertification'),
                     duration: '1 Hour',
@@ -109,14 +110,14 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'title-nvidia-ai-enterprise',
                 type: 'title',
-                position: { x: leftStartX, y: rowStartY + rowSpacing },
+                position: { x: leftStartX, y: rowStartY + rowSpacing * 2 },
                 data: { label: t('sections.nvidiaAIEnterprise') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaAIEnterpriseAdministrationVMwarevSphere',
                 type: 'course',
-                position: { x: leftStartX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: leftStartX, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseAdministrationVMwarevSphere'),
                     duration: '8 Hours',
@@ -129,7 +130,7 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'nvidiaAIEnterpriseForAzureProfessionals',
                 type: 'course',
-                position: { x: leftStartX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: leftStartX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseForAzureProfessionals'),
                     duration: '9 Hours',
@@ -144,14 +145,14 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'title-cluster-administration',
                 type: 'title',
-                position: { x: leftStartX, y: rowStartY + rowSpacing * 2 },
+                position: { x: leftStartX, y: rowStartY + rowSpacing * 3 },
                 data: { label: t('sections.clusterAdministration') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'baseCommandManagerAdministration',
                 type: 'course',
-                position: { x: leftStartX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: leftStartX, y: rowStartY + rowSpacing * 3 + titleHeight },
                 data: {
                     title: t('courses.baseCommandManagerAdministration'),
                     duration: '3 Hours',
@@ -166,14 +167,14 @@ export default function DataCenterCloudTrainingPage() {
             {
                 id: 'title-dpu',
                 type: 'title',
-                position: { x: leftStartX, y: rowStartY + rowSpacing * 3 },
+                position: { x: leftStartX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing },
                 data: { label: t('sections.dpu') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaBlueFieldDPUAdministration',
                 type: 'course',
-                position: { x: leftStartX, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: leftStartX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.nvidiaBlueFieldDPUAdministration'),
                     duration: '3 Hours',
@@ -389,11 +390,11 @@ export default function DataCenterCloudTrainingPage() {
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
-                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[1600px]"
+                        containerHeight="h-[500px] sm:h-[600px] md:h-[800px] lg:h-[900px]"
                         showControls={true}
                         alignToTopRight={false}
                     />
@@ -433,9 +434,13 @@ export default function DataCenterCloudTrainingPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

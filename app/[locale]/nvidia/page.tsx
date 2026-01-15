@@ -1,32 +1,37 @@
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import PDFPageNavigator from '@/components/PDFPageNavigator';
 import { TitlePage, QuickLinksPage, CertificationFrameworkPage, CertificationFrameworkPage2, AcceleratedComputingPage, AgenticAIPage, SimulationModelingDesignPage, ComputerVisionVideoAnalyticsPage, DataSciencePage, DataScienceTrainingPage, DeepLearningTrainingPage, GenAILLMCertificationsPage, GenAIMultimodalCertificationsPage, GenerativeAILLMTrainingPage, IndustrialDigitalTwinsTrainingPage, IndustryRelatedTrainingPage, OpenUSDCertificationPage, RoboticsTrainingPage, AcceleratedComputingTrainingPage, AIInfrastructureCertificationsPage, DataCenterCloudTrainingPage, DataCenterOverviewTrainingPage, InfrastructureGenAILLMTrainingPage, NetworkingTrainingPage } from '@/components/pdf-pages';
 import TACFIPPage from '@/components/pdf-pages/TACFIPPage';
+import Image from 'next/image';
 
 export default function NvidiaPage() {
   return (
     <div className="w-full">
+      {/* PDF Page Navigator - Fixed position */}
+      <PDFPageNavigator />
+
       {/* Language Switcher - Fixed position */}
       <div className="fixed top-6 right-6 z-50">
         <LanguageSwitcher />
       </div>
 
       {/* PDF Page 1: Title Page */}
-      <div className="relative">
+      <div id="title-page" className="relative">
         <TitlePage />
       </div>
 
       {/* PDF Page 2: Quick Links Page */}
-      <div className="relative">
+      <div id="quick-links" className="relative">
         <QuickLinksPage />
       </div>
 
       {/* PDF Page 3: Certification Framework Page */}
-      <div className="relative">
+      <div id="certification-framework" className="relative">
         <CertificationFrameworkPage />
       </div>
 
       {/* PDF Page 4: Certification Framework Page 2 */}
-      <div className="relative">
+      <div id="certification-framework-2" className="relative">
         <CertificationFrameworkPage2 />
       </div>
 
@@ -135,6 +140,10 @@ export default function NvidiaPage() {
       {/* PDF Page 24: Networking Training Page */}
       <div id="networking-training" className="relative">
         <NetworkingTrainingPage />
+      </div>
+
+      <div id="footer" className="relative">
+        <Image src="/bg-footer.webp" alt="NVIDIA Footer" className="w-full h-full object-cover" width={2000} height={2000} />
       </div>
     </div>
   );

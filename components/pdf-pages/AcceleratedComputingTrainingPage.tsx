@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function AcceleratedComputingTrainingPage() {
     const t = useTranslations('acceleratedComputingTraining');
@@ -78,7 +79,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'aiForAllBasicsGenAIPractice',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.aiForAllBasicsGenAIPractice'),
                     duration: '2 Hours',
@@ -91,7 +92,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'dataCenterManagementNVIDIAUFM',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
+                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.dataCenterManagementNVIDIAUFM'),
                     duration: '3 Hours',
@@ -106,14 +107,14 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'title-nvidia-ai-enterprise',
                 type: 'title',
-                position: { x: startX, y: rowStartY + rowSpacing },
+                position: { x: startX, y: rowStartY + rowSpacing * 2 },
                 data: { label: t('sections.nvidiaAIEnterprise') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaAIEnterpriseAdministrationVMwarevSphere',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseAdministrationVMwarevSphere'),
                     duration: '8 Hours',
@@ -126,7 +127,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaAIEnterpriseForAzureProfessionals',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIEnterpriseForAzureProfessionals'),
                     duration: '9 Hours',
@@ -141,14 +142,14 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'title-base-command-manager',
                 type: 'title',
-                position: { x: startX, y: rowStartY + rowSpacing * 2 },
+                position: { x: startX, y: rowStartY + rowSpacing * 3 },
                 data: { label: t('sections.nvidiaBaseCommandManager') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'baseCommandManagerAdministration',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing * 3 + titleHeight },
                 data: {
                     title: t('courses.baseCommandManagerAdministration'),
                     duration: '3 Hours',
@@ -161,7 +162,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaBaseCommandManagerPrivateCustomTraining',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing * 4 + titleHeight },
                 data: {
                     title: t('courses.nvidiaBaseCommandManagerPrivateCustomTraining'),
                     duration: '12 Hours',
@@ -176,14 +177,14 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'title-ai-infrastructure-operations',
                 type: 'title',
-                position: { x: startX, y: rowStartY + rowSpacing * 3 },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY },
                 data: { label: t('sections.aiInfrastructureAndOperations') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaAIInfrastructurePublicTraining',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIInfrastructurePublicTraining'),
                     duration: '28 Hours',
@@ -196,7 +197,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'professionalAIInfrastructureCertification',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.professionalAIInfrastructureCertification'),
                     duration: '2 Hours',
@@ -210,7 +211,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaAIOperationsPublicTraining',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIOperationsPublicTraining'),
                     duration: '24 Hours',
@@ -223,7 +224,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'professionalAIOperationsCertification',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing + titleHeight },
                 data: {
                     title: t('courses.professionalAIOperationsCertification'),
                     duration: '2 Hours',
@@ -237,7 +238,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaAIInfrastructureOperationsPublicTraining',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing * 3 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing * 2 + titleHeight },
                 data: {
                     title: t('courses.nvidiaAIInfrastructureOperationsPublicTraining'),
                     duration: '44 Hours',
@@ -252,14 +253,14 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'title-nvidia-dgx',
                 type: 'title',
-                position: { x: startX, y: rowStartY + rowSpacing * 4 },
+                position: { x: startX, y: rowStartY + rowSpacing * 5 },
                 data: { label: t('sections.nvidiaDGX') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'nvidiaDGXSystemAdministrationPublicWorkshop',
                 type: 'course',
-                position: { x: startX, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: startX, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXSystemAdministrationPublicWorkshop'),
                     duration: '12 Hours',
@@ -272,7 +273,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaDGXSystemAdministrationPrivateWorkshop',
                 type: 'course',
-                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: startX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXSystemAdministrationPrivateWorkshop'),
                     duration: '12 Hours',
@@ -285,7 +286,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaDGXBasePODAdministrationPrivateWorkshop',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXBasePODAdministrationPrivateWorkshop'),
                     duration: '12 Hours',
@@ -298,7 +299,7 @@ export default function AcceleratedComputingTrainingPage() {
             {
                 id: 'nvidiaDGXSuperPODAdministrationPrivateWorkshop',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 4 + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 5 + titleHeight },
                 data: {
                     title: t('courses.nvidiaDGXSuperPODAdministrationPrivateWorkshop'),
                     duration: '12 Hours',
@@ -377,7 +378,7 @@ export default function AcceleratedComputingTrainingPage() {
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
@@ -421,9 +422,13 @@ export default function AcceleratedComputingTrainingPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src='/nvidia-sq-logo.webp'
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

@@ -39,6 +39,8 @@ export interface CourseNodeData extends Record<string, unknown> {
 
 export interface TitleNodeData extends Record<string, unknown> {
     label: string;
+    className?: string;
+    textSize?: string; // e.g., 'text-2xl', 'text-3xl', 'text-4xl', etc.
 }
 
 export interface CourseNodeProps extends NodeProps {
@@ -93,9 +95,19 @@ function CourseNode({ data }: CourseNodeProps) {
 
 // Title Node Component
 function TitleNode({ data }: TitleNodeProps) {
+    // Default text size classes
+    const defaultTextSize = 'text-xl sm:text-2xl md:text-3xl';
+    // Use custom text size if provided, otherwise use default
+    const textSizeClass = data.textSize || defaultTextSize;
+    // Combine custom className with default classes
+    const containerClassName = data.className
+        ? `px-4 py-2 ${data.className}`
+        : 'px-4 py-2';
+    const headingClassName = `${textSizeClass} font-bold text-black`;
+
     return (
-        <div className="px-4 py-2">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-black">
+        <div className={containerClassName}>
+            <h3 className={headingClassName}>
                 {data.label}
             </h3>
         </div>

@@ -190,7 +190,9 @@
       "fundamentals": "Fundamentals",
       "generativeAIAndLLMs": "Generative AI and LLMs",
       "professional": "Professional",
-      "certification": "Certification"
+      "certification": "Certification",
+      "associateCertification": "Associate Certification",
+      "professionalCertification": "Professional Certification"
     },
     "certificationExamTitle": "Certification Exam",
     "courses": {

@@ -346,14 +346,14 @@ export default function DataScienceTrainingPage() {
         {
             id: 'title-financial-services',
             type: 'title',
-            position: { x: 50, y: rowStartY + rowSpacing * 6 },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 4 },
             data: { label: t('sections.acceleratedDataScienceForFinancialServices') },
             style: { background: 'transparent', border: 'none' },
         },
         {
             id: 'acceleratingPortfolioOptimization',
             type: 'course',
-            position: { x: 50, y: rowStartY + rowSpacing * 6 + titleHeight },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 4 + titleHeight },
             data: {
                 title: t('courses.acceleratingPortfolioOptimization'),
                 duration: '2 Hours',

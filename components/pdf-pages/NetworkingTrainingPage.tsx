@@ -349,6 +349,8 @@ export default function NetworkingTrainingPage() {
             id: 'e3',
             source: 'fundamentalsRDMAProgramming',
             target: 'nvidiaCumulusLinuxPublicBootCamp-ai-networking',
+            sourceHandle: 'bottom', // Connect from bottom handle
+            targetHandle: 'top', // Connect to top handle
             type: 'smoothstep',
             animated: false,
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },

@@ -304,6 +304,8 @@ export default function AIInfrastructureCertificationsPage() {
             id: 'e4',
             source: 'fundamentalsRDMAProgramming',
             target: 'nvidiaCumulusLinuxPublicBootCamp',
+            sourceHandle: 'bottom', // Connect from bottom handle
+            targetHandle: 'top', // Connect to top handle
             type: 'smoothstep',
             animated: false,
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },

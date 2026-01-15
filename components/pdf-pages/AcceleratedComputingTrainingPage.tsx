@@ -344,6 +344,15 @@ export default function AcceleratedComputingTrainingPage() {
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
             style: { stroke: '#9ca3af', strokeWidth: 2 },
         },
+        {
+            id: 'e4',
+            source: 'nvidiaAIInfrastructureOperationsPublicTraining',
+            target: 'professionalAIInfrastructureCertification',
+            type: 'smoothstep',
+            animated: false,
+            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
+            style: { stroke: '#9ca3af', strokeWidth: 2 },
+        }
     ], []);
 
     return (

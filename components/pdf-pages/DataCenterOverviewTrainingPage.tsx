@@ -419,16 +419,7 @@ export default function DataCenterOverviewTrainingPage() {
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
             style: { stroke: '#9ca3af', strokeWidth: 2 },
         },
-        // Associate Certification leads to AI Infrastructure Public Training
-        {
-            id: 'e2',
-            source: 'associateAIInfrastructureOperationsCertification',
-            target: 'nvidiaAIInfrastructurePublicTraining',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
+
         // AI Infrastructure Public Training leads to Professional Certification
         {
             id: 'e3',
@@ -444,6 +435,15 @@ export default function DataCenterOverviewTrainingPage() {
             id: 'e4',
             source: 'nvidiaAIOperationsPublicTraining',
             target: 'professionalAIOperationsCertification',
+            type: 'smoothstep',
+            animated: false,
+            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
+            style: { stroke: '#9ca3af', strokeWidth: 2 },
+        },
+        {
+            id: 'e5',
+            source: 'nvidiaAIInfrastructureOperationsPublicTraining',
+            target: 'professionalAIInfrastructureCertification',
             type: 'smoothstep',
             animated: false,
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },

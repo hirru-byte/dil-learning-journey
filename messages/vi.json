@@ -190,7 +190,9 @@
       "fundamentals": "Nền tảng",
       "generativeAIAndLLMs": "AI Tạo sinh và LLMs",
       "professional": "Chuyên nghiệp",
-      "certification": "Chứng nhận"
+      "certification": "Chứng nhận",
+      "associateCertification": "Chứng nhận Liên kếp",
+      "professionalCertification": "Chứng nhận Chuyên nghiệp"
     },
     "courses": {
       "whatIsTrustworthyAI": "AI Đáng tin cậy là gì?",

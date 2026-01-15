@@ -128,14 +128,14 @@ export default function GenAIMultimodalCertificationsPage() {
             {
                 id: 'title-certification',
                 type: 'title',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY },
                 data: { label: t('sections.certification') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'associateCertificationExam',
                 type: 'course',
-                position: { x: startX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: startX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight },
                 data: {
                     title: t('courses.associateCertificationExam'),
                     duration: '1 Hour',

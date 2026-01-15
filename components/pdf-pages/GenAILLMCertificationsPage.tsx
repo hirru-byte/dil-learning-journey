@@ -30,7 +30,7 @@ export default function GenAILLMCertificationsPage() {
     // Define nodes based on the curriculum structure
     const nodeWidth = 500;
     const nodeSpacing = 50;
-    const titleHeight = 50;
+    const titleHeight = 70;
     const rowStartY = 20;
     const rowSpacing = 270; // Space between rows
     const sectionSpacing = 100; // Space between sections
@@ -48,16 +48,23 @@ export default function GenAILLMCertificationsPage() {
             // ASSOCIATE CERTIFICATION PATH
             // Fundamentals Section
             {
+                id: 'title-associate',
+                type: 'title',
+                position: { x: 50, y: rowStartY },
+                data: { label: t('sections.associateCertification'), textSize: 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl' },
+                style: { background: 'transparent', border: 'none' },
+            },
+            {
                 id: 'title-associate-fundamentals',
                 type: 'title',
-                position: { x: associateFundamentalsX, y: rowStartY },
+                position: { x: associateFundamentalsX, y: rowStartY + titleHeight },
                 data: { label: t('sections.fundamentals') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'whatIsTrustworthyAI',
                 type: 'course',
-                position: { x: associateFundamentalsX, y: rowStartY + titleHeight },
+                position: { x: associateFundamentalsX, y: rowStartY + titleHeight * 2 },
                 data: {
                     title: t('courses.whatIsTrustworthyAI'),
                     duration: 'Blog',
@@ -70,7 +77,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'fundamentalsOfDeepLearning',
                 type: 'course',
-                position: { x: associateFundamentalsX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
+                position: { x: associateFundamentalsX + nodeWidth + nodeSpacing, y: rowStartY + titleHeight * 2 },
                 data: {
                     title: t('courses.fundamentalsOfDeepLearning'),
                     duration: '8 Hours',
@@ -85,7 +92,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'fundamentalsOfAcceleratedDataScience',
                 type: 'course',
-                position: { x: associateFundamentalsX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
+                position: { x: associateFundamentalsX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight * 2 },
                 data: {
                     title: t('courses.fundamentalsOfAcceleratedDataScience'),
                     duration: '6 Hours',
@@ -103,14 +110,14 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'title-associate-genai',
                 type: 'title',
-                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 3, y: rowStartY },
+                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
                 data: { label: t('sections.generativeAIAndLLMs') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'buildingTransformerBasedNLP',
                 type: 'course',
-                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
+                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight * 2 },
                 data: {
                     title: t('courses.buildingTransformerBasedNLP'),
                     duration: '6 Hours',
@@ -126,7 +133,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'buildingLLMApplicationsPromptEngineering',
                 type: 'course',
-                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight },
+                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight * 2 },
                 data: {
                     title: t('courses.buildingLLMApplicationsPromptEngineering'),
                     duration: '8 Hours',
@@ -141,7 +148,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'rapidApplicationDevelopmentLLMs',
                 type: 'course',
-                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight },
+                position: { x: associateGenAIX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight * 2 },
                 data: {
                     title: t('courses.rapidApplicationDevelopmentLLMs'),
                     duration: '8 Hours',
@@ -156,9 +163,16 @@ export default function GenAILLMCertificationsPage() {
 
             // Associate Certification Exam
             {
+                id: 'title-associate-exam',
+                type: 'title',
+                position: { x: associateExamX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing + 90 },
+                data: { label: t('sections.certification') },
+                style: { background: 'transparent', border: 'none' },
+            },
+            {
                 id: 'associateCertificationExam',
                 type: 'course',
-                position: { x: associateExamX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing + titleHeight },
+                position: { x: associateExamX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing + titleHeight * 2 },
                 data: {
                     title: t('courses.associateCertificationExam'),
                     duration: '1 Hour',
@@ -175,14 +189,14 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'title-professional',
                 type: 'title',
-                position: { x: professionalX, y: rowStartY + rowSpacing * 2 },
-                data: { label: t('sections.professional') },
+                position: { x: professionalX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                data: { label: t('sections.professionalCertification'), textSize: 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl' },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'buildingRAGAgentsLLMs',
                 type: 'course',
-                position: { x: professionalX, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: professionalX, y: rowStartY + rowSpacing * 2 + titleHeight * 2 },
                 data: {
                     title: t('courses.buildingRAGAgentsLLMs'),
                     duration: '8 Hours',
@@ -197,7 +211,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'addingNewKnowledgeLLMs',
                 type: 'course',
-                position: { x: professionalX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: professionalX + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing * 2 + titleHeight * 2 },
                 data: {
                     title: t('courses.addingNewKnowledgeLLMs'),
                     duration: '8 Hours',
@@ -210,7 +224,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'modelParallelismLargeNeuralNetworks',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: professionalX + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing * 2 + titleHeight * 2 },
                 data: {
                     title: t('courses.modelParallelismLargeNeuralNetworks'),
                     duration: '8 Hours',
@@ -223,7 +237,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'deployingRAGPipelinesProduction',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: professionalX + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing * 2 + titleHeight * 2 },
                 data: {
                     title: t('courses.deployingRAGPipelinesProduction'),
                     duration: '4 Hours',
@@ -239,7 +253,7 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'optimizingCUDAMLNsight',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: professionalX + (nodeWidth + nodeSpacing) * 4, y: rowStartY + rowSpacing * 2 + titleHeight * 2 },
                 data: {
                     title: t('courses.optimizingCUDAMLNsight'),
                     duration: '4 Hours',
@@ -254,14 +268,14 @@ export default function GenAILLMCertificationsPage() {
             {
                 id: 'certificationExamTitle',
                 type: 'title',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing * 2 },
+                position: { x: professionalX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing * 2 + 90 },
                 data: { label: t('sections.certification') },
                 style: { background: 'transparent', border: 'none' },
             },
             {
                 id: 'professionalCertificationExam',
                 type: 'course',
-                position: { x: professionalX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing * 2 + titleHeight },
+                position: { x: professionalX + (nodeWidth + nodeSpacing) * 5, y: rowStartY + rowSpacing * 2 + titleHeight * 2 },
                 data: {
                     title: t('courses.professionalCertificationExam'),
                     duration: '2 Hours',
@@ -321,6 +335,8 @@ export default function GenAILLMCertificationsPage() {
             source: 'rapidApplicationDevelopmentLLMs',
             target: 'associateCertificationExam',
             type: 'smoothstep',
+            sourceHandle: 'bottom', // Connect from bottom handle
+            targetHandle: 'top', // Connect to top handle
             animated: false,
             markerEnd: {
                 type: 'arrowclosed',
@@ -415,7 +431,6 @@ export default function GenAILLMCertificationsPage() {
 
                 {/* Main Content - ReactFlow */}
                 <div>
-                    <div className=" text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">Associate Certification</div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}

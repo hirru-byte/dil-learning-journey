@@ -359,15 +359,7 @@ export default function InfrastructureGenAILLMTrainingPage() {
     // Define edges (arrows) to show flow
     const initialEdges: Edge[] = useMemo(() => [
         // Overview section flow
-        {
-            id: 'e1',
-            source: 'aiForAllBasicsGenAIPractice',
-            target: 'aiInfrastructureOperationsFundamentals',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
+
         {
             id: 'e2',
             source: 'aiInfrastructureOperationsFundamentals',
@@ -390,6 +382,15 @@ export default function InfrastructureGenAILLMTrainingPage() {
             id: 'e4',
             source: 'nvidiaAIOperationsPublicTraining',
             target: 'professionalAIOperationsCertification',
+            type: 'smoothstep',
+            animated: false,
+            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
+            style: { stroke: '#9ca3af', strokeWidth: 2 },
+        },
+        {
+            id: 'e5',
+            source: 'nvidiaAIInfrastructureOperationsPublicTraining',
+            target: 'professionalAIInfrastructureCertification',
             type: 'smoothstep',
             animated: false,
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },

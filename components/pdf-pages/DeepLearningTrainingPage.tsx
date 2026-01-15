@@ -479,6 +479,8 @@ export default function DeepLearningTrainingPage() {
             id: 'e2-6',
             source: 'course-real-time-video-ai',
             target: 'course-medical-ai-monai',
+            sourceHandle: 'bottom', // Connect from bottom handle
+            targetHandle: 'top', // Connect to top handle
             type: 'smoothstep',
             animated: false,
             markerEnd: {

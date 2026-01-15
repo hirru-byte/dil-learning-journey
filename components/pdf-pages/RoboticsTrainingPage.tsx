@@ -388,25 +388,7 @@ export default function RoboticsTrainingPage() {
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
             style: { stroke: '#9ca3af', strokeWidth: 2 },
         },
-        // Isaac Sim Track 2 (Bottom Row)
-        {
-            id: 'e7',
-            source: 'developSimulateDeployRobotIntelligenceScaledFoundations',
-            target: 'generatingHighQualityMotionDataRoboticsMobilityGen',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
-        {
-            id: 'e8',
-            source: 'generatingHighQualityMotionDataRoboticsMobilityGen',
-            target: 'softwareInLoopTestingRobotsOpenUSDIsaacSIMROS',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
+
         // Isaac Lab section
         {
             id: 'e9',
@@ -435,16 +417,7 @@ export default function RoboticsTrainingPage() {
             markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
             style: { stroke: '#9ca3af', strokeWidth: 2 },
         },
-        // Isaac ROS section
-        {
-            id: 'e12',
-            source: 'introductionAIBasedRobotDevelopmentIsaacROS',
-            target: 'acceleratingROS2NVIDIAGPUPoweredLibrariesAIModels',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: { type: 'arrowclosed', color: '#9ca3af' },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
+
     ], []);
 
     return (

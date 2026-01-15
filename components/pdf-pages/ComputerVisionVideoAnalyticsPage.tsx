@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import Image from 'next/image';
 
 export default function ComputerVisionVideoAnalyticsPage() {
     const t = useTranslations('computerVisionVideoAnalytics');
@@ -77,7 +78,7 @@ export default function ComputerVisionVideoAnalyticsPage() {
         {
             id: 'buildingRealTimeVideoAI',
             type: 'course',
-            position: { x: 50 + (nodeWidth + nodeSpacing) * 3, y: rowStartY },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY - verticalSpacing * 2 },
             data: {
                 title: t('courses.buildingRealTimeVideoAI'),
                 duration: '8 Hours',
@@ -90,7 +91,7 @@ export default function ComputerVisionVideoAnalyticsPage() {
         {
             id: 'disasterRiskMonitoring',
             type: 'course',
-            position: { x: 50 + (nodeWidth + nodeSpacing) * 3, y: rowStartY + verticalSpacing },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY - verticalSpacing },
             data: {
                 title: t('courses.disasterRiskMonitoring'),
                 duration: '8 Hours',
@@ -108,8 +109,8 @@ export default function ComputerVisionVideoAnalyticsPage() {
             position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + verticalSpacing },
             data: {
                 title: t('courses.applicationsAIPredictiveMaintenance'),
-                duration: '8 Hours',
-                price: '$500',
+
+                price: 'INSTRUCTOR-LED WORKSHOP',
                 type: 'purple',
                 hasAsterisk: true,
                 link: courseLinks.applicationsAIPredictiveMaintenance,
@@ -122,8 +123,7 @@ export default function ComputerVisionVideoAnalyticsPage() {
             position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + verticalSpacing * 2 },
             data: {
                 title: t('courses.modelParallelism'),
-                duration: '8 Hours',
-                price: '$500',
+                price: 'INSTRUCTOR-LED WORKSHOP',
                 type: 'purple',
                 hasAsterisk: true,
                 link: courseLinks.modelParallelism,
@@ -136,8 +136,7 @@ export default function ComputerVisionVideoAnalyticsPage() {
             position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + verticalSpacing * 3 },
             data: {
                 title: t('courses.computerVisionIndustrialInspection'),
-                duration: '8 Hours',
-                price: '$500',
+                price: 'INSTRUCTOR-LED WORKSHOP',
                 type: 'purple',
                 hasAsterisk: true,
                 link: courseLinks.computerVisionIndustrialInspection,
@@ -202,42 +201,7 @@ export default function ComputerVisionVideoAnalyticsPage() {
             },
             style: { stroke: '#9ca3af', strokeWidth: 2 },
         },
-        {
-            id: 'e3',
-            source: 'applicationsAIAnomalyDetection',
-            target: 'applicationsAIPredictiveMaintenance',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: {
-                type: 'arrowclosed',
-                color: '#9ca3af',
-            },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
-        {
-            id: 'e4',
-            source: 'applicationsAIPredictiveMaintenance',
-            target: 'modelParallelism',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: {
-                type: 'arrowclosed',
-                color: '#9ca3af',
-            },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
-        {
-            id: 'e5',
-            source: 'modelParallelism',
-            target: 'computerVisionIndustrialInspection',
-            type: 'smoothstep',
-            animated: false,
-            markerEnd: {
-                type: 'arrowclosed',
-                color: '#9ca3af',
-            },
-            style: { stroke: '#9ca3af', strokeWidth: 2 },
-        },
+
         // Separate path - bottom left
         {
             id: 'e6',
@@ -282,16 +246,11 @@ export default function ComputerVisionVideoAnalyticsPage() {
                             {t('subtitle')}
                         </p>
                     </div>
-                    <a
-                        href="#"
-                        className="text-green-600 underline hover:text-green-700 text-xs sm:text-sm md:text-base whitespace-nowrap"
-                    >
-                        {t('linkToLearningPath')}
-                    </a>
+
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
@@ -317,26 +276,23 @@ export default function ComputerVisionVideoAnalyticsPage() {
                                 <span className="text-gray-700">{t('courseLegend.doubleAsterisk')}</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <span className="text-black font-semibold">{'{'}{'}'}</span>
+                                <span className="text-black font-semibold">{'{ '}{' }'}</span>
                                 <span className="text-gray-700">{t('courseLegend.braces')}</span>
                             </div>
-                            <div className="flex items-center gap-2">
-                                <div className="w-10 h-3 sm:w-12 sm:h-4 bg-green-500 rounded"></div>
-                                <span className="text-gray-700">{t('courseLegend.greenBar')}</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <div className="w-10 h-3 sm:w-12 sm:h-4 bg-purple-600 rounded"></div>
-                                <span className="text-gray-700">{t('courseLegend.purpleBar')}</span>
-                            </div>
+
                         </div>
                     </div>
                 </div>
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src="/nvidia-sq-logo.webp"
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

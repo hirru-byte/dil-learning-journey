@@ -189,7 +189,8 @@
     "sections": {
       "fundamentals": "Nền tảng",
       "generativeAIAndLLMs": "AI Tạo sinh và LLMs",
-      "professional": "Chuyên nghiệp"
+      "professional": "Chuyên nghiệp",
+      "certification": "Chứng nhận"
     },
     "courses": {
       "whatIsTrustworthyAI": "AI Đáng tin cậy là gì?",
@@ -212,7 +213,8 @@
       "doubleAsterisk": "Huy hiệu Kỹ thuật số Có sẵn",
       "greenBar": "Khóa học Tự học NVIDIA",
       "purpleBar": "Hội thảo Có Giảng viên NVIDIA",
-      "blueBar": "Kỳ thi Chứng nhận NVIDIA"
+      "blueBar": "Kỳ thi Chứng nhận NVIDIA",
+      "greyBar": "Bài viết / Blog"
     }
   },
   "genAIMultimodalCertifications": {

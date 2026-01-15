@@ -189,8 +189,10 @@
     "sections": {
       "fundamentals": "Fundamentals",
       "generativeAIAndLLMs": "Generative AI and LLMs",
-      "professional": "Professional"
+      "professional": "Professional",
+      "certification": "Certification"
     },
+    "certificationExamTitle": "Certification Exam",
     "courses": {
       "whatIsTrustworthyAI": "What is Trustworthy AI?",
       "fundamentalsOfDeepLearning": "Fundamentals of Deep Learning",
@@ -212,7 +214,8 @@
       "doubleAsterisk": "Digital Badge Available",
       "greenBar": "NVIDIA Self-paced Course",
       "purpleBar": "NVIDIA Instructor-Led Workshop",
-      "blueBar": "NVIDIA Certification Exam"
+      "blueBar": "NVIDIA Certification Exam",
+      "greyBar": "Article / Blog"
     }
   },
   "genAIMultimodalCertifications": {

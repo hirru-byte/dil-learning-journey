@@ -1,5 +1,6 @@
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { TitlePage, QuickLinksPage, CertificationFrameworkPage, CertificationFrameworkPage2, AcceleratedComputingPage, AgenticAIPage, SimulationModelingDesignPage, ComputerVisionVideoAnalyticsPage, DataSciencePage, DataScienceTrainingPage, DeepLearningTrainingPage, GenAILLMCertificationsPage, GenAIMultimodalCertificationsPage, GenerativeAILLMTrainingPage, IndustrialDigitalTwinsTrainingPage, IndustryRelatedTrainingPage, OpenUSDCertificationPage, RoboticsTrainingPage, AcceleratedComputingTrainingPage, AIInfrastructureCertificationsPage, DataCenterCloudTrainingPage, DataCenterOverviewTrainingPage, InfrastructureGenAILLMTrainingPage, NetworkingTrainingPage } from '@/components/pdf-pages';
+import TACFIPPage from '@/components/pdf-pages/TACFIPPage';
 
 export default function NvidiaPage() {
   return (
@@ -39,10 +40,6 @@ export default function NvidiaPage() {
         <AgenticAIPage />
       </div>
 
-      {/* PDF Page 7: Simulation Modeling and Design Page */}
-      <div id="simulation-modeling-design" className="relative">
-        <SimulationModelingDesignPage />
-      </div>
 
       {/* PDF Page 8: Computer Vision and Video Analytics Training Page */}
       <div id="computer-vision-video-analytics" className="relative">
@@ -98,6 +95,17 @@ export default function NvidiaPage() {
       <div id="robotics-training" className="relative">
         <RoboticsTrainingPage />
       </div>
+
+      {/* PDF Page 7: Simulation Modeling and Design Page */}
+      <div id="simulation-modeling-design" className="relative">
+        <SimulationModelingDesignPage />
+      </div>
+
+      {/* PDF Page 8: TACFIP Page */}
+      <div id="tacfip" className="relative">
+        <TACFIPPage />
+      </div>
+
 
       {/* PDF Page 19: Accelerated Computing Training Page */}
       <div id="accelerated-computing-training" className="relative">

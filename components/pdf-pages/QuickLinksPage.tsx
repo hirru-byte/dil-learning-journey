@@ -115,7 +115,7 @@ export default function QuickLinksPage() {
 
             {/* Infrastructure Certifications and Topics Rows */}
             <tr className="bg-blue-50">
-              <td className="p-4 border-t-2">
+              <td className="p-4 ">
                 <h3 className="text-lg font-bold text-black">
                   {t('forInfrastructureProfessionals')}
                 </h3>

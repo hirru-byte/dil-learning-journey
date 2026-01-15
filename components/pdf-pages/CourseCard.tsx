@@ -66,10 +66,10 @@ export default function CourseCard({
             const finalPurpleDuration = purpleDuration || duration;
             return (
                 <div className="flex">
-                    <div className="flex-1 bg-green-500 py-2 sm:py-3 px-2 sm:px-4 text-white text-xs sm:text-sm font-semibold text-center">
+                    <div className="flex-1 bg-green-500 py-2 sm:py-3 px-2 sm:px-4 text-white text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl  font-semibold text-center">
                         {duration} | {greenPrice || '$90'}
                     </div>
-                    <div className="flex-1 bg-purple-600 py-2 sm:py-3 px-2 sm:px-4 text-white text-xs sm:text-sm font-semibold text-center">
+                    <div className="flex-1 bg-purple-600 py-2 sm:py-3 px-2 sm:px-4 text-white text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl  font-semibold text-center">
                         {finalPurpleDuration} | {purplePrice || '$500'}
                     </div>
                 </div>

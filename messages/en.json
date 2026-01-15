@@ -124,6 +124,9 @@
       "2H2025": "2H 2025"
     }
   },
+  "TACFIP": {
+    "header": "Training and Certification for Infrastructure Professionals"
+  },
   "acceleratedComputing": {
     "title": "Accelerated Computing Training",
     "subtitle": "For developers",

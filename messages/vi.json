@@ -124,6 +124,9 @@
       "2H2025": "H2 2025"
     }
   },
+  "TACFIP": {
+    "header": "Đào tạo và Chứng nhận cho Chuyên gia Hạ tầng"
+  },
   "acceleratedComputing": {
     "title": "Đào tạo Tính toán Tăng tốc",
     "subtitle": "Dành cho nhà phát triển",

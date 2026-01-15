@@ -4,6 +4,8 @@ import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 import { Node, Edge } from '@xyflow/react';
 import ReactFlowCurriculum from './ReactFlowCurriculum';
+import AAP from '@/public/nvidia/AA-Professional.svg';
+import Image from 'next/image';
 
 export default function AgenticAIPage() {
     const t = useTranslations('agenticAI');
@@ -53,14 +55,14 @@ export default function AgenticAIPage() {
         {
             id: 'title-generativeAI',
             type: 'title',
-            position: { x: 50, y: rowStartY + rowSpacing },
+            position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY },
             data: { label: t('sections.generativeAIAndMultimodal') },
             style: { background: 'transparent', border: 'none' },
         },
         {
             id: 'evaluatingRAG',
             type: 'course',
-            position: { x: 50, y: rowStartY + rowSpacing + titleHeight },
+            position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + titleHeight },
             data: {
                 title: t('courses.evaluatingRAG'),
                 duration: '3 Hours',
@@ -73,7 +75,7 @@ export default function AgenticAIPage() {
         {
             id: 'buildingAgenticAI',
             type: 'course',
-            position: { x: 50 + nodeWidth + nodeSpacing, y: rowStartY + rowSpacing + titleHeight },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + titleHeight },
             data: {
                 title: t('courses.buildingAgenticAI'),
                 duration: '8 Hours',
@@ -88,7 +90,7 @@ export default function AgenticAIPage() {
         {
             id: 'addingNewKnowledge',
             type: 'course',
-            position: { x: 50 + (nodeWidth + nodeSpacing) * 2, y: rowStartY + rowSpacing + titleHeight },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 3, y: rowStartY + titleHeight },
             data: {
                 title: t('courses.addingNewKnowledge'),
                 duration: '8 Hours',
@@ -101,7 +103,7 @@ export default function AgenticAIPage() {
         {
             id: 'introductionToDeployingRAG',
             type: 'course',
-            position: { x: 50 + (nodeWidth + nodeSpacing) * 3, y: rowStartY + rowSpacing + titleHeight },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 4, y: rowStartY + titleHeight },
             data: {
                 title: t('courses.introductionToDeployingRAG'),
                 duration: '4 Hours',
@@ -118,14 +120,14 @@ export default function AgenticAIPage() {
         {
             id: 'title-certification',
             type: 'title',
-            position: { x: 50, y: rowStartY + rowSpacing * 2 },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 5, y: rowStartY },
             data: { label: t('sections.certification') },
             style: { background: 'transparent', border: 'none' },
         },
         {
             id: 'examAgenticAI',
             type: 'course',
-            position: { x: 50, y: rowStartY + rowSpacing * 2 + titleHeight },
+            position: { x: 50 + (nodeWidth + nodeSpacing) * 5, y: rowStartY + titleHeight },
             data: {
                 title: t('courses.examAgenticAI'),
                 duration: '2 Hours',
@@ -234,27 +236,27 @@ export default function AgenticAIPage() {
                             {t('subtitle')}
                         </p>
                     </div>
-                    <div className="flex flex-col items-start sm:items-end gap-4 w-full sm:w-auto">
+                    <div className="flex items-start gap-4 w-full sm:w-auto ">
                         <a
-                            href="#"
+                            href="https://www.nvidia.com/en-us/learn/learning-path/generative-ai-llm/"
                             className="text-green-600 underline hover:text-green-700 text-xs sm:text-sm md:text-base whitespace-nowrap"
                         >
                             {t('linkToLearningPath')}
                         </a>
                         {/* Certification Badge */}
-                        <div className="bg-gray-200 border-2 border-gray-300 rounded-lg p-2 sm:p-3 text-center w-full sm:min-w-[200px]">
-                            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-600 rounded-full mx-auto mb-2 flex items-center justify-center">
-                                <span className="text-white text-[10px] sm:text-xs font-bold">N</span>
-                            </div>
-                            <p className="text-[10px] sm:text-xs font-semibold text-black leading-tight">
-                                {t('certificationBadge')}
-                            </p>
-                        </div>
+                        <Image
+                            src={AAP.src}
+                            alt="Certification Badge"
+                            width={200}
+                            height={200}
+
+                        />
                     </div>
                 </div>
 
                 {/* Main Content - ReactFlow */}
-                <div className="shadow-2xl">
+                <div>
+                    <div className=" text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">Professional Certification</div>
                     <ReactFlowCurriculum
                         nodes={initialNodes}
                         edges={initialEdges}
@@ -297,9 +299,13 @@ export default function AgenticAIPage() {
 
                 {/* NVIDIA Logo */}
                 <div className="mt-8 flex justify-end">
-                    <div className="w-32 h-12 bg-green-600 rounded flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">NVIDIA</span>
-                    </div>
+                    <Image
+                        src="/nvidia-sq-logo.webp"
+                        alt="NVIDIA Logo"
+                        width={50}
+                        height={50}
+                        className="w-10 h-10 sm:w-14 sm:h-14 md:w-[70px] md:h-[70px]"
+                    />
                 </div>
             </div>
         </div>

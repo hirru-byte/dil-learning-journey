@@ -2,8 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 
-export default function CertificationFrameworkPage2() {
-    const t = useTranslations('certificationFramework2');
+export default function TACFIPPage() {
+    const t = useTranslations('TACFIP');
 
     return (
         <div className="min-h-screen relative overflow-hidden">
